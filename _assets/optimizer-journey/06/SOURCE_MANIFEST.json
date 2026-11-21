@@ -1,0 +1,25 @@
+{
+  "entry": "06",
+  "reproduction_scope": "mechanism",
+  "minimal_command": "python reproduce.py",
+  "sources": [
+    {
+      "source": "CrossAdamW/theory/06_CALIBRATED_CROSSADAMW_ZH.md",
+      "source_sha256": "56ce2b4cc13e9c95e9c2759bc53277daa7fa64a16815c69acc0b5b1ddde8cca5",
+      "published": "theory.md",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "CrossAdamW/experiments/20261108_calibrated/README_ZH.md",
+      "source_sha256": "b8f325c6006a19bf8fb4bc24f608fa634ed679b7e1c25e0b9ba1defed59166f3",
+      "published": "report.md",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "CrossAdamW/optimizers/cross_adamw.py",
+      "source_sha256": "863f5a01fb21320958e62162a7505a5b222bf560654c1aea3b83f9a497297162",
+      "published": "core.py",
+      "transformation": "byte-identical"
+    }
+  ]
+}

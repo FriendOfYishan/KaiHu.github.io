@@ -1,0 +1,7 @@
+{
+  "symbolic_compensation": true,
+  "gaussian_finite_time_bound_algebra": true,
+  "constant_signal_leverage": 1,
+  "frozen_scale_equivalence_error": 1.6653345369377348e-16,
+  "note": "Finite Gaussian noise theorem applies to U and unweighted potential differences; not automatically to the time-weighted parameter recursion."
+}

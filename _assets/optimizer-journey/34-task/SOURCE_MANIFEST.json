@@ -1,0 +1,13 @@
+{
+  "entry": "34-task",
+  "reproduction_scope": "new-audit",
+  "minimal_command": "python core.py",
+  "sources": [
+    {
+      "source": "CrossAdamW/theory/34_TASK_POSITIONING_AND_TESTABLE_THEORY_ZH.md",
+      "source_sha256": "8107c0833f7137148ea00176e5039780eea4e5ed1cd40e8a06357d664902da7f",
+      "published": "theory.md",
+      "transformation": "byte-identical"
+    }
+  ]
+}

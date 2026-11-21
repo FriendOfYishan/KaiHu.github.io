@@ -1,0 +1,25 @@
+{
+  "entry": "14",
+  "reproduction_scope": "mechanism",
+  "minimal_command": "python reproduce.py",
+  "sources": [
+    {
+      "source": "CrossAdamW/theory/14_AWA_SHRINK_AND_RATE_ZH.md",
+      "source_sha256": "f4d559e42e66ccc387a6599de99553d4765de4aa1fa611d0d2f8dde379876fe0",
+      "published": "theory.md",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "CrossAdamW/experiments/20261109_awa/README_ZH.md",
+      "source_sha256": "3bafd66c0f06a423f5d45d850e14e3d0b19ae24276dc3b281ca4ded76353adb1",
+      "published": "report.md",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "CrossAdamW/optimizers/awa_shrink.py",
+      "source_sha256": "60a02bc647b0773aeaa1212e1a46dd65793fcac226f24cf60e4ab34372990aa8",
+      "published": "core.py",
+      "transformation": "byte-identical"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "entry": "38-shape",
+  "reproduction_scope": "algebra",
+  "minimal_command": "python core.py",
+  "sources": [
+    {
+      "source": "Layer Flash/theory/38_SHAPE_BUDGET_ZH.md",
+      "source_sha256": "cde6ca76cc23f5740233fd1cb266ebbb17e876c78028cdfb7dd35667f59a5484",
+      "published": "theory.md",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "Layer Flash/experiments/20261114_layer38/RESULTS_ZH.md",
+      "source_sha256": "c8b66d49be9ba11d79b4b1e2cff07f39e614c4a02607ad04f490d6fb0ecf8a2c",
+      "published": "report.md",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "Layer Flash/theory/verify_38.py",
+      "source_sha256": "f9cb498bfc70244bf602df57b8c705b7dd64cd99dadac1cda0fc5fa4b12d4cc7",
+      "published": "core.py",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "Layer Flash/theory/layer38.py",
+      "source_sha256": "0239ed60d1f469b1bab043dd1d5faea41aa91e0b752013452c03b0216a5baf39",
+      "published": "layer38.py",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "Layer Flash/theory/38_CHECKS.json",
+      "source_sha256": "8c96914b2a6df8765ca24c394b9107ae8def2d91560471cbb0f82dfd0716ac8c",
+      "published": "evidence/38_CHECKS.json",
+      "transformation": "byte-identical"
+    }
+  ]
+}

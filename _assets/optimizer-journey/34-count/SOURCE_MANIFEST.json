@@ -1,0 +1,37 @@
+{
+  "entry": "34-count",
+  "reproduction_scope": "algebra",
+  "minimal_command": "python core.py",
+  "sources": [
+    {
+      "source": "CrossAdamW/theory/34_COUNT_CALIBRATED_RECOVERY_THEORY_ZH.md",
+      "source_sha256": "dae10273c2a1bd0e720fbb3e22af89e41eb3e76d3b67d1f46bbb13ba3c46d2ee",
+      "published": "theory.md",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "CrossAdamW/experiments/20261113_count_recovery/RESULTS_ZH.md",
+      "source_sha256": "b9c662fcdf12d8fab32c23fee2faa396a79ebc98675e1ebe36ff0a4b1f4b6d8f",
+      "published": "report.md",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "CrossAdamW/theory/verify_34_count_calibration.py",
+      "source_sha256": "da9d8f2bc3a7cabaf2d2cf34a0006d8a14431b0bd86157bac986a56fb535737a",
+      "published": "core.py",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "CrossAdamW/theory/30_ARITHMETIC_HARMONIC_VERIFICATION.json",
+      "source_sha256": "bc4e61c863e2b806aba30a111f1144484ded116c7c89fc2b8da5de93ef2c4f53",
+      "published": "evidence/30_ARITHMETIC_HARMONIC_VERIFICATION.json",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "CrossAdamW/theory/31_ARITHMETIC_HARMONIC_VERIFICATION.json",
+      "source_sha256": "e46c965a27b121ce2641ead5165331cd1617712ac531a8cf1e56e01df79b5815",
+      "published": "evidence/31_ARITHMETIC_HARMONIC_VERIFICATION.json",
+      "transformation": "byte-identical"
+    }
+  ]
+}

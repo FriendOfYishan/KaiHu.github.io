@@ -1,0 +1,37 @@
+{
+  "entry": "15",
+  "reproduction_scope": "algebra",
+  "minimal_command": "python core.py",
+  "sources": [
+    {
+      "source": "CrossAdamW/theory/15_AWA_PREVIEW_MIX_ZH.md",
+      "source_sha256": "549224a8c7c44b88f77079c2c863d9536f1494d67e117f60b63492239273a2d0",
+      "published": "theory.md",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "CrossAdamW/experiments/20261109_awa_preview/README_ZH.md",
+      "source_sha256": "a9a7aa401034ba94fba7087ee3c535ce798db5f5728d81bd55dd74300bcd7e67",
+      "published": "report.md",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "CrossAdamW/experiments/20261109_awa_preview/verify.py",
+      "source_sha256": "6c254197e2cc874104e6f67e4a1e4d445831e5e32227ca89e55e08a286459177",
+      "published": "core.py",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "CrossAdamW/experiments/20261109_awa_preview/preview.py",
+      "source_sha256": "954488baa87e2d6658dbe9bee9a9d79db5d367439ba19301727ae577a1482980",
+      "published": "preview.py",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "CrossAdamW/experiments/20261109_awa_preview/verification.json",
+      "source_sha256": "17cd52562d05e324330f7cbd32fd8ad4830f8a26d4e6eebdc728dbc7219d3c5c",
+      "published": "evidence/verification.json",
+      "transformation": "byte-identical"
+    }
+  ]
+}

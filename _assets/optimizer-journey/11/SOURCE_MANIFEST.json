@@ -1,0 +1,19 @@
+{
+  "entry": "11",
+  "reproduction_scope": "algebra",
+  "minimal_command": "python core.py",
+  "sources": [
+    {
+      "source": "CrossAdamW/theory/11_QUADRATIC_ONE_OVER_T_ZH.md",
+      "source_sha256": "3505b875b493943f98ad708a3d4f4902292874081bf80500bde36840c4be610e",
+      "published": "theory.md",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "CrossAdamW/experiments/20261109_quadratic_rate/probe.py",
+      "source_sha256": "49b716c7e827b98c16fc7810f93b55fbb48ade277938b7a913073dab6cdafc2e",
+      "published": "core.py",
+      "transformation": "byte-identical"
+    }
+  ]
+}

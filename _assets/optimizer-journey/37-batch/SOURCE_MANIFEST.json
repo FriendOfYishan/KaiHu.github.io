@@ -1,0 +1,25 @@
+{
+  "entry": "37-batch",
+  "reproduction_scope": "new-audit",
+  "minimal_command": "python core.py",
+  "sources": [
+    {
+      "source": "CrossAdamW/theory/37B_BATCH_NOISE_RATE_ZH.md",
+      "source_sha256": "5c0a71c14ad1814d1a54da9f41f3def0ed55453810d031fec52a9a92b412efc3",
+      "published": "theory.md",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "CrossAdamW/experiments/20261114_layer37b/RESULTS_ZH.md",
+      "source_sha256": "c55a1b6828a2fb71b65d716e89dc4335f7bdcd7ce636fdcfcdcd4ec199b6c174",
+      "published": "report.md",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "CrossAdamW/experiments/20261114_layer37b/experiment.py",
+      "source_sha256": "dfeb8af9b8df230c66a8a856b6811946857019501651c32d6df1bfc410aaf239",
+      "published": "historical_training_loop.py",
+      "transformation": "AST optimizer/kernel dependency slice"
+    }
+  ]
+}

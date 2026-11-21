@@ -1,0 +1,36 @@
+{
+  "symbolic_optimal_step_verified": true,
+  "symbolic_conditional_risk_verified": true,
+  "exp_counterexample": {
+    "a": 1,
+    "b": 1,
+    "exp_sum": 7.38905609893065,
+    "sum_exp": 5.43656365691809
+  },
+  "kurtosis_counterexample": {
+    "curvatures": [
+      1,
+      100
+    ],
+    "x": 0,
+    "mean_gradient": 1,
+    "noise_variance": 1,
+    "gradient_distribution": "N(1,1) in both models",
+    "standardized_central_kurtosis": 3
+  },
+  "gaussian_exponential_bias": [
+    {
+      "variance": 0,
+      "multiplicative_bias": 1.0
+    },
+    {
+      "variance": 1,
+      "multiplicative_bias": 1.6487212707001282
+    },
+    {
+      "variance": 4,
+      "multiplicative_bias": 7.38905609893065
+    }
+  ],
+  "scope": "Symbolic checks and exact counterexamples; no claimed novel optimizer or training run"
+}

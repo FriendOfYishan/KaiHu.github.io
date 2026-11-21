@@ -1,0 +1,65 @@
+{
+  "residual_energy_identity_float32": {
+    "S_dtype": "float32",
+    "groups": 8,
+    "group_size": 1024,
+    "steps": 60,
+    "max_relative_error": 5.160293598555044e-07,
+    "max_relative_error_after_bias_correction": 5.160293597917185e-07,
+    "tolerance": 1e-05
+  },
+  "residual_energy_identity_bfloat16": {
+    "S_dtype": "bfloat16",
+    "groups": 8,
+    "group_size": 1024,
+    "steps": 60,
+    "max_relative_error": 4.714839734383773e-07,
+    "max_relative_error_after_bias_correction": 4.714839734499481e-07,
+    "tolerance": 2e-05
+  },
+  "step1_bias_example": {
+    "expected_direction_43": -0.2418254315853119,
+    "closed_form_43": -0.24182541670333724,
+    "expected_direction_44": 0.0,
+    "eps": 1e-08,
+    "note": "43 direction biased downward, 44 first step unbiased; does not by itself prove 43 fails"
+  },
+  "virtual_sequence_identity": {
+    "d": 32,
+    "steps": 200,
+    "eta": 0.01,
+    "kappa": 9.000000000000002,
+    "max_abs_error": 4.440892098500626e-16,
+    "statement": "z_(t+1)-z_t=-eta A_t g_t holds exactly for the implemented recursion"
+  },
+  "conditional_unbiasedness": {
+    "d": 1024,
+    "samples": 200000,
+    "sigma": 0.5,
+    "history_step": 17,
+    "max_abs_error": 0.0009965868377014853,
+    "monte_carlo_scale": 0.0013471872474098252,
+    "error_over_rms_of_A_f": 0.004021140714738249,
+    "A_min": 0.18709885742811455,
+    "A_max": 0.3236273583390552
+  },
+  "descent_inequality": {
+    "L": 1.0,
+    "H": 2.0,
+    "a": 0.5,
+    "beta": 0.9,
+    "kappa": 9.000000000000002,
+    "eta": 0.009820927516479824,
+    "epsilon_condition": {
+      "first": 0.125,
+      "second": 0.01964185503295965
+    },
+    "draws": 20000,
+    "dim": 8,
+    "noise_variance": 0.3,
+    "max_violation": -0.0014267876858719622,
+    "max_abs_rhs": 457.22691518767516,
+    "statement": "E_t[F(z_t+1)-F(z_t)] <= -eta(3/4-LH eta/2)D_t + H L^2 eta^3 kappa^2 ||U||^2 + L eta^2 V_t/2"
+  },
+  "mode": "synthetic algebraic checks only; no model training in this file"
+}

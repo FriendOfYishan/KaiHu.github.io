@@ -1,0 +1,25 @@
+{
+  "entry": "08",
+  "reproduction_scope": "mechanism",
+  "minimal_command": "python reproduce.py",
+  "sources": [
+    {
+      "source": "CrossAdamW/theory/08_SIMPLE_PREDICTIVE_SHRINK_ZH.md",
+      "source_sha256": "f6d966511977234be031f9d479aee3a5653bf3a8dbc98605053bc92758d33a9d",
+      "published": "theory.md",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "CrossAdamW/experiments/20261108_simple/README_ZH.md",
+      "source_sha256": "5ef4664451d5c3fd7afe52409bc58e57d747dddb6ffbe423b7dd06cf84043382",
+      "published": "report.md",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "CrossAdamW/optimizers/predictive_shrink.py",
+      "source_sha256": "7574da9601589286100512e77e7858bddea60b550de8468d06aa1334b6c70a34",
+      "published": "core.py",
+      "transformation": "byte-identical"
+    }
+  ]
+}

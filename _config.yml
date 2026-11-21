@@ -3,3 +3,15 @@ title: "Kai Hu's blog"
 description: "记录机器学习、深度学习和优化算法研究"
 theme: minima
 lang: zh-CN
+url: "https://friendofyishan.github.io"
+baseurl: "/KaiHu.github.io"
+include:
+  - _assets
+exclude:
+  - README.md
+  - README.en.md
+  - Gemfile
+  - Gemfile.lock
+header_pages:
+  - research/zh/index.md
+  - research/en/index.md

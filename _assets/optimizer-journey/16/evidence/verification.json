@@ -1,0 +1,75 @@
+{
+  "kind": "filter identities only; no GPU training",
+  "T": 1000,
+  "weights": {
+    "log": "log(k+1)",
+    "exp_fixed": "exp(.01*k)",
+    "exp_horizon": "exp(5*k/T)",
+    "sqrt_exp": "exp(sqrt(k))"
+  },
+  "filters": [
+    {
+      "method": "uniform",
+      "age": 499.49999999999994,
+      "n_eff": 999.9999999999995,
+      "double_correction_coefficient": 1.9999999999999902,
+      "corrected_noise_factor": 0.004970058116557775,
+      "raw_noise_factor": 0.0010000000000000005,
+      "quadratic_bias": -221555.9999999984,
+      "max_affine_error": 2.6147972675971687e-12
+    },
+    {
+      "method": "linear",
+      "age": 332.9999999999978,
+      "n_eff": 750.3748125937009,
+      "double_correction_coefficient": 1.499999999999978,
+      "corrected_noise_factor": 0.004325180774351661,
+      "raw_noise_factor": 0.0013326673326673367,
+      "quadratic_bias": -124625.24999999635,
+      "max_affine_error": 3.183231456205249e-12
+    },
+    {
+      "method": "log",
+      "age": 457.9643607053742,
+      "n_eff": 973.9747471396988,
+      "double_correction_coefficient": 1.8600557324982068,
+      "corrected_noise_factor": 0.004185778597163636,
+      "raw_noise_factor": 0.001026720664921478,
+      "quadratic_bias": -196622.07393437726,
+      "max_affine_error": 1.5916157281026244e-12
+    },
+    {
+      "method": "exp_fixed",
+      "age": 99.45543134093472,
+      "n_eff": 199.9835073650817,
+      "double_correction_coefficient": 1.0018949726664501,
+      "corrected_noise_factor": 0.0124696775476441,
+      "raw_noise_factor": 0.005000412349876637,
+      "quadratic_bias": -19559.168508647286,
+      "max_affine_error": 4.547473508864641e-13
+    },
+    {
+      "method": "exp_horizon",
+      "age": 192.71676176018903,
+      "n_eff": 394.64654143881086,
+      "double_correction_coefficient": 1.0682825702421648,
+      "corrected_noise_factor": 0.0066557072650727765,
+      "raw_noise_factor": 0.0025339129955483162,
+      "quadratic_bias": -60818.86331436237,
+      "max_affine_error": 1.1368683772161603e-12
+    },
+    {
+      "method": "sqrt_exp",
+      "age": 58.82797460931922,
+      "n_eff": 120.55735686550294,
+      "double_correction_coefficient": 1.033669595533884,
+      "corrected_noise_factor": 0.021017891187326197,
+      "raw_noise_factor": 0.008294806936715004,
+      "quadratic_bias": -6475.190939049853,
+      "max_affine_error": 4.547473508864641e-13
+    }
+  ],
+  "two_average_max_error": 2.9103830456733704e-11,
+  "weighted_regression_max_error": 1.2281842209915794e-15,
+  "shrinkage_and_residual_max_error": 7.771561172376096e-16
+}

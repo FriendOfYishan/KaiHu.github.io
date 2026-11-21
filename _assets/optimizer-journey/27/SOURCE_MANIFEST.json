@@ -1,0 +1,13 @@
+{
+  "entry": "27",
+  "reproduction_scope": "new-audit",
+  "minimal_command": "python core.py",
+  "sources": [
+    {
+      "source": "CrossAdamW/theory/27_TRACKING_RATE_IS_NOT_OPTIMIZATION_RATE_ZH.md",
+      "source_sha256": "9bce93cfe04cc17f14a0c5fb5ade9daa9daa5a9d8b927b0291b2c1ea2dc81607",
+      "published": "theory.md",
+      "transformation": "byte-identical"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "entry": "10",
+  "reproduction_scope": "algebra",
+  "minimal_command": "python core.py",
+  "sources": [
+    {
+      "source": "CrossAdamW/theory/10_CUMULATIVE_COHERENT_SHRINK_ZH.md",
+      "source_sha256": "ec48a6af7fc2fdc415de633fbac085cb9caf2aa08c66822de3366ef89ee37dfc",
+      "published": "theory.md",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "CrossAdamW/experiments/20261108_cumulative/README_ZH.md",
+      "source_sha256": "87e163fd9efe2651ccec6016a867332967edabfabddf41a222a9152ba2f04027",
+      "published": "report.md",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "CrossAdamW/experiments/20261108_cumulative/verify_theorems.py",
+      "source_sha256": "2416fe612122c6591e884f8c741b63607d54afb783d5b173c818608d2ec3b104",
+      "published": "core.py",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "CrossAdamW/experiments/20261108_cumulative/theorem_checks.json",
+      "source_sha256": "3e312da60c7cc7a55a2effc0c0b0815ec456d40763a3a5667046a19e467af0d4",
+      "published": "evidence/theorem_checks.json",
+      "transformation": "byte-identical"
+    }
+  ]
+}

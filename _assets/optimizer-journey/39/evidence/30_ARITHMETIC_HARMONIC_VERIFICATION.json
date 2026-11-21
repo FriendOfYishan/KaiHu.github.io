@@ -1,0 +1,27 @@
+{
+  "recurrence_comparisons": 10000,
+  "max_abs_recurrence_error": 8.881784197001252e-16,
+  "error_bound_cases": 1000,
+  "two_point_identity_cases": 500,
+  "signed_restoration_cases": 500,
+  "tail_counterexample": {
+    "A": 1.99,
+    "H": 1.00999899000101,
+    "true_R": 100.99,
+    "estimated_R": 5.910302009897991,
+    "true_step": 0.19802220417386487,
+    "estimated_step": 0.8185557049935009
+  },
+  "float32_cancellation": {
+    "A": 1.0,
+    "H": 1.0,
+    "estimated_v": 0.0,
+    "true_v": 9.99999905104687e-09
+  },
+  "same_A_H_distinct_R": {
+    "A": 2,
+    "H": 1.6363636363636365,
+    "R_three_point": 4.666666666666667,
+    "R_two_point": 4.7272727272727275
+  }
+}

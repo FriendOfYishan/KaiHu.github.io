@@ -1,0 +1,25 @@
+{
+  "entry": "20",
+  "reproduction_scope": "algebra",
+  "minimal_command": "python core.py",
+  "sources": [
+    {
+      "source": "CrossAdamW/theory/20_STARTUP_GEOMETRY_CORRELATION_ZH.md",
+      "source_sha256": "9d9a738831bc94e049277bf7b663f11aafe376dcecc793c514cfdf30390b003b",
+      "published": "theory.md",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "CrossAdamW/experiments/20261110_theory20/verify.py",
+      "source_sha256": "6bc7e24b2c25432201430828fc8102c97498770321cee4898740cd327ed4dc8f",
+      "published": "core.py",
+      "transformation": "rebase output path only; formulas unchanged"
+    },
+    {
+      "source": "CrossAdamW/experiments/20261110_theory20/verification.json",
+      "source_sha256": "7a03b71f609e05f32c5a8d0b8db8f7613287e2c0cca3d72db3278d643e38ca66",
+      "published": "evidence/verification.json",
+      "transformation": "byte-identical"
+    }
+  ]
+}

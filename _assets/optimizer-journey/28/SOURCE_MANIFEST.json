@@ -1,0 +1,13 @@
+{
+  "entry": "28",
+  "reproduction_scope": "new-audit",
+  "minimal_command": "python core.py",
+  "sources": [
+    {
+      "source": "CrossAdamW/theory/28_TRANSPORT_CORRECTION_AND_EMPIRICAL_SCOPE_ZH.md",
+      "source_sha256": "431dd7db10d8a8f2c7d1a14416aa25feb7842eed849f2784fd869633d7e49bab",
+      "published": "theory.md",
+      "transformation": "byte-identical"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "entry": "16",
+  "reproduction_scope": "algebra",
+  "minimal_command": "python core.py",
+  "sources": [
+    {
+      "source": "CrossAdamW/theory/16_AWA_HISTORY_BIAS_CANCELLERS_ZH.md",
+      "source_sha256": "d2d868fe3524e6e22004793ccd22053252979892e974ec5b8c730bc331bcecda",
+      "published": "theory.md",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "CrossAdamW/experiments/20261109_awa_canceller_math/verify.py",
+      "source_sha256": "66c9cd9aa1532d5abcbbae6a3912204de447cda841d140e5268ed1291b051d1a",
+      "published": "core.py",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "CrossAdamW/experiments/20261109_awa_canceller_math/verification.json",
+      "source_sha256": "ceaafef420c4213373901c2b1cbc4863a30857359625cffaa8d90f66c4fbe279",
+      "published": "evidence/verification.json",
+      "transformation": "byte-identical"
+    }
+  ]
+}

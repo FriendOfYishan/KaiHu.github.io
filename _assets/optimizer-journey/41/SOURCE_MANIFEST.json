@@ -1,0 +1,37 @@
+{
+  "entry": "41",
+  "reproduction_scope": "algebra",
+  "minimal_command": "python core.py",
+  "sources": [
+    {
+      "source": "CrossAdamW/theory/41_RESIDUAL_AMBIGUITY_ALLOCATION_ZH.md",
+      "source_sha256": "6f0acde73048386a8f07b10fc8f5baf0c09f85b0e65f6c455aec94a4f7e697f5",
+      "published": "theory.md",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "CrossAdamW/experiments/20261115_candidate41/FINAL_SUMMARY_ZH.md",
+      "source_sha256": "dc7f06502e8e11c6f7bb68a0986eb163f65294a5c803b0cc3421c9e2931ea959",
+      "published": "report.md",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "CrossAdamW/theory/verify_41_residual_ambiguity.py",
+      "source_sha256": "fc5195eb5e756d2656a86b6de5c41e95b24ea7dbd2cdfed4e30bc39035580829",
+      "published": "core.py",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "CrossAdamW/theory/30_ARITHMETIC_HARMONIC_VERIFICATION.json",
+      "source_sha256": "bc4e61c863e2b806aba30a111f1144484ded116c7c89fc2b8da5de93ef2c4f53",
+      "published": "evidence/30_ARITHMETIC_HARMONIC_VERIFICATION.json",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "CrossAdamW/theory/31_ARITHMETIC_HARMONIC_VERIFICATION.json",
+      "source_sha256": "e46c965a27b121ce2641ead5165331cd1617712ac531a8cf1e56e01df79b5815",
+      "published": "evidence/31_ARITHMETIC_HARMONIC_VERIFICATION.json",
+      "transformation": "byte-identical"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "entry": "25",
+  "reproduction_scope": "historical-core",
+  "minimal_command": "python reproduce.py",
+  "sources": [
+    {
+      "source": "CrossAdamW/theory/25_INNOVATION_IDENTIFICATION_AUDIT_ZH.md",
+      "source_sha256": "8e5d53c8af7269f3e7503e9229129e0db4f9c1212f9e5ae916fba4e7b133ca34",
+      "published": "theory.md",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "CrossAdamW/experiments/20261110_innovation_identification/README_ZH.md",
+      "source_sha256": "cecc34a8aa27fd0e6aa6fcc740d98c41ba5c6c8dbecf15026d141a0fefd4c3dd",
+      "published": "report.md",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "CrossAdamW/experiments/20261110_innovation_identification/run.py",
+      "source_sha256": "733950f36b7a0a9b7b01657e80ae4d7ee1edde6fd86da2dffe43d6c1419b3632",
+      "published": "core.py",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "CrossAdamW/experiments/20261110_innovation_identification/results.json",
+      "source_sha256": "0cb6ae6f8d96e2dd8e51ae3545548a02e0454ad394193849056ce09c36a75a96",
+      "published": "evidence/results.json",
+      "transformation": "byte-identical"
+    }
+  ]
+}

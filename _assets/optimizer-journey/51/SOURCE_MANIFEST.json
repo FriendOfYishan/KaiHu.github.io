@@ -1,0 +1,43 @@
+{
+  "entry": "51",
+  "reproduction_scope": "mechanism",
+  "minimal_command": "python reproduce.py",
+  "sources": [
+    {
+      "source": "Layer Flash/experiments/20261120_candidate51/SUMMARY_51_AB_ZH.md",
+      "source_sha256": "7f135ae8cf6ba6f1c419719e308adf672046e7cb92a6c1845643227c3dd2b74b",
+      "published": "report.md",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "Layer Flash/experiments/20261120_candidate51/c51.py",
+      "source_sha256": "6d48af5551e7935d5a77a2c910efd786f32ee1f34e9b229f291ab775e9faf920",
+      "published": "core.py",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "Layer Flash/experiments/20261120_candidate51/optzoo.py",
+      "source_sha256": "a8dda271cf69a2360d31da9ddce9be02302c6ba88aa14528d0c2b5977139dcdc",
+      "published": "optzoo.py",
+      "transformation": "AST constants slice"
+    },
+    {
+      "source": "Layer Flash/experiments/20261120_candidate51/SUMMARY_51_ZH.md",
+      "source_sha256": "8eac64791c277301e3d5f73628b97077d99b9c29fc6ded4e973c21112edab52f",
+      "published": "SUMMARY_51_ZH.md",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "Layer Flash/experiments/20261120_candidate51/ablation51.json",
+      "source_sha256": "c5bfee34a9fcd4a30e6571a860961960ee24877e7b747c73afc161bc52c70577",
+      "published": "ablation51.json",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "Layer Flash/experiments/20261120_candidate51/long_summary.json",
+      "source_sha256": "1d2b84addc0b911cc4411d56c532052d5b65ab6226d26f3b54e4b0a764181b5d",
+      "published": "long_summary.json",
+      "transformation": "byte-identical"
+    }
+  ]
+}

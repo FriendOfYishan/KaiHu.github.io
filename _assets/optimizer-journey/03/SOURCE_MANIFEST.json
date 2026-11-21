@@ -1,0 +1,25 @@
+{
+  "entry": "03",
+  "reproduction_scope": "algebra",
+  "minimal_command": "python core.py",
+  "sources": [
+    {
+      "source": "CrossAdamW/theory/03_EVIDENCE_AUDIT_ZH.md",
+      "source_sha256": "a59959dedb846267bb49d0b6111fcf13f79e995fd9706e7fa2ed483864d95006",
+      "published": "theory.md",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "Shrink AdamW/v2.1/theory/theory_v21_symbolic_check.py",
+      "source_sha256": "f43785c2ce51afa2ef4cd524a8d5329770c8c6b8f532d0525d36e84548e13cf1",
+      "published": "core.py",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "Shrink AdamW/v2.1/theory/theory_v21_symbolic_checks.json",
+      "source_sha256": "800b10cf39f0788543d1db5002f32c32a65e0d33ae6b5fdbe647da45af0fd0e6",
+      "published": "evidence/theory_v21_symbolic_checks.json",
+      "transformation": "byte-identical"
+    }
+  ]
+}

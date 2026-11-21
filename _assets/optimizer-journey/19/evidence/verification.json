@@ -1,0 +1,5 @@
+{
+  "weight_normalization": true,
+  "jensen_bound": true,
+  "oracle_bias_variance_matches_explicit_weights": true
+}

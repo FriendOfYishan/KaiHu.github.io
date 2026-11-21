@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "seed": 231110,
+  "states": 2000,
+  "pathwise_identities": 24000,
+  "covariance_bounds": 2000,
+  "expectation_certificates": 8000,
+  "gaussian_integrals": 30,
+  "max_algebra_and_derivative_check_error": 1.9138115980865678e-08,
+  "max_gaussian_integral_error": 1.7208456881689926e-15,
+  "opposite_alignment_counterexample": {
+    "observed_g": 1.0,
+    "observed_m": 1.0,
+    "observed_v": 1.0,
+    "world_A_alignment": -0.6666666666666666,
+    "world_B_alignment": 0.6666666666666666
+  },
+  "scope": "Finite-support conditional expectations enumerated exactly; Gaussian identities checked by numerical quadrature. Not GPU training, not a speed or convergence benchmark."
+}

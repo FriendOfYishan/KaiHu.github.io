@@ -1,0 +1,37 @@
+{
+  "entry": "34",
+  "reproduction_scope": "algebra",
+  "minimal_command": "python core.py",
+  "sources": [
+    {
+      "source": "CrossAdamW/theory/34_RECIPROCAL_RESIDUAL_ESTIMATOR_ZH.md",
+      "source_sha256": "b23fe9c4ea253faeb882ffeae33ce77a07e85c94b23791f9e3b2ffb32b882830",
+      "published": "theory.md",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "CrossAdamW/experiments/20261113_ah34_constant/RESULTS_ZH.md",
+      "source_sha256": "bc6976045ec638803304b837eeb7a2f02c8449ee6f4a2df19d425abd5bc88619",
+      "published": "report.md",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "CrossAdamW/theory/verify_reciprocal_residual.py",
+      "source_sha256": "8b5a7dfa8c8356cdcf29df174cbc89e76537815f76ae56cce3aff378d581b2ed",
+      "published": "core.py",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "CrossAdamW/theory/30_ARITHMETIC_HARMONIC_VERIFICATION.json",
+      "source_sha256": "bc4e61c863e2b806aba30a111f1144484ded116c7c89fc2b8da5de93ef2c4f53",
+      "published": "evidence/30_ARITHMETIC_HARMONIC_VERIFICATION.json",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "CrossAdamW/theory/31_ARITHMETIC_HARMONIC_VERIFICATION.json",
+      "source_sha256": "e46c965a27b121ce2641ead5165331cd1617712ac531a8cf1e56e01df79b5815",
+      "published": "evidence/31_ARITHMETIC_HARMONIC_VERIFICATION.json",
+      "transformation": "byte-identical"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "scope": "exact symbolic mathematics only; no random samples or training",
+  "checks": {
+    "conditional_risk": "passed",
+    "psd_factorization": "passed",
+    "gradient_square_lower_bound_identity": "passed",
+    "v2_common_target_risk": "passed",
+    "nested_risk": "passed",
+    "stationary_input_variance": "passed",
+    "all_lag_covariances": "passed",
+    "gaussian_v21_exact_polynomial": "passed",
+    "gaussian_v2_exact_polynomial": "passed",
+    "oracle_comparison_factorization": "passed",
+    "fixed_coefficients_gap": "passed",
+    "v21_oracle_below_one": "passed",
+    "v2_oracle_below_one": "passed",
+    "skewed_exact_zero_risk_example": "passed",
+    "symmetric_ema_phase_identity": "passed"
+  },
+  "num_checks": 15,
+  "stationary_gaussian_threshold_exact": "872239446817/72673232270",
+  "stationary_gaussian_threshold_decimal": "12.00221071186710"
+}

@@ -1,0 +1,61 @@
+{
+  "entry": "51-fused",
+  "reproduction_scope": "mechanism",
+  "minimal_command": "python reproduce.py",
+  "sources": [
+    {
+      "source": "CrossAdamW/experiments/c51_fused/README.md",
+      "source_sha256": "3c54f3389a43df67b27d56a3ccbf71808d1f64572d450bc555e753d7119417b5",
+      "published": "report.md",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "CrossAdamW/experiments/c51_fused/c51_slim.py",
+      "source_sha256": "81537f44f298c817fa3214bd8389f028014acc3a4d7309aef78b96738f06ae28",
+      "published": "core.py",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "CrossAdamW/experiments/c51_fused/c51_fused.py",
+      "source_sha256": "7576c174d8b06a57e478e928b9a0bba219f98b29ca0485b649af61e2a6a6ca46",
+      "published": "c51_fused.py",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "CrossAdamW/experiments/c51_fused/results.json",
+      "source_sha256": "5b799273acba17ee5822837c67be6cb9bc4d99b7ce147d28892e34f70e77e3b5",
+      "published": "results.json",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "CrossAdamW/experiments/c51_fused/long_default.json",
+      "source_sha256": "7db9b72903d0522fb8bb1f2835815dc2e032d16d958c5546423dad766f8060c5",
+      "published": "long_default.json",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "CrossAdamW/experiments/c51_fused/long_taper.json",
+      "source_sha256": "b9106a4eaf471593b2e4223a1c5c31b89b0fdcf0880f2959fc717ad7ad66b930",
+      "published": "long_taper.json",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "CrossAdamW/experiments/c51_fused/seed11.json",
+      "source_sha256": "67520288ad2f8fa11fb333187ebd33a77721ea2bb3990915077b63106076404e",
+      "published": "seed11.json",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "CrossAdamW/experiments/c51_fused/seed33.json",
+      "source_sha256": "af3765cb18468c4963a20c282b8a337aa23473ffba8133163a2a5e986b0ecbc3",
+      "published": "seed33.json",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "CrossAdamW/experiments/c51_fused/results.json",
+      "source_sha256": "5b799273acba17ee5822837c67be6cb9bc4d99b7ce147d28892e34f70e77e3b5",
+      "published": "evidence/results.json",
+      "transformation": "byte-identical"
+    }
+  ]
+}

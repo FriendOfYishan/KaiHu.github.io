@@ -1,0 +1,25 @@
+{
+  "entry": "17",
+  "reproduction_scope": "historical-core",
+  "minimal_command": "python reproduce.py",
+  "sources": [
+    {
+      "source": "CrossAdamW/theory/17_DRIFT_NOISE_MEMORY_MODEL_ZH.md",
+      "source_sha256": "505bea705a3b0bae1d681dec30842cb137dee23a5fbf7b2141c329aa9d2ab30d",
+      "published": "theory.md",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "CrossAdamW/experiments/20261109_drift_model/README_ZH.md",
+      "source_sha256": "b4c5a37d256a3ee470b994a1047c0917c0d5d104c9d6c0dd03686ba07309f06f",
+      "published": "report.md",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "CrossAdamW/experiments/20261109_drift_model/model.py",
+      "source_sha256": "356dfc3a8f70de1f19a6a84ae06c4acaf330029959427d29897e5c6d94049587",
+      "published": "core.py",
+      "transformation": "byte-identical"
+    }
+  ]
+}

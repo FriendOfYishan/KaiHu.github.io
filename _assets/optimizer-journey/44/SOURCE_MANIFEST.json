@@ -1,0 +1,37 @@
+{
+  "entry": "44",
+  "reproduction_scope": "gpu-smoke",
+  "minimal_command": "python reproduce.py",
+  "sources": [
+    {
+      "source": "CrossAdamW/theory/44_PREDICTABLE_RESIDUAL_MOMENTUM_ZH.md",
+      "source_sha256": "d618e81604b9d29ae598f4e70660771ac66be323db5799c97c833e5ae8828c72",
+      "published": "theory.md",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "Layer Flash/experiments/20261116_candidate44/FINAL_SUMMARY_ZH.md",
+      "source_sha256": "e05f228cd29d4da998707cfe44566f891ef6102fe2f8a7dfb4c50a19f95c63aa",
+      "published": "report.md",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "Layer Flash/experiments/20261116_candidate44/lab44.py",
+      "source_sha256": "9845ed3c1bc033ca548cbc65b02c0c9a978acde37f3a166aff576f945244f717",
+      "published": "core.py",
+      "transformation": "AST optimizer/kernel dependency slice"
+    },
+    {
+      "source": "Layer Flash/experiments/20261116_candidate44/kernel_checks.json",
+      "source_sha256": "0d9c2bc617afbafa3bd2ed226d20df9af82d0329a676d5bc881b69bcae17ce1f",
+      "published": "evidence/kernel_checks.json",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "Layer Flash/experiments/20261116_candidate44/math_checks.json",
+      "source_sha256": "e4fa0312a9072810db29410e39f2de7170d3c920333a8b0255cfc8844954e949",
+      "published": "evidence/math_checks.json",
+      "transformation": "byte-identical"
+    }
+  ]
+}

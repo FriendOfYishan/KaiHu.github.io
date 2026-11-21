@@ -1,0 +1,19 @@
+{
+  "random_quadratic_joint_checks": 300,
+  "max_grid_advantage": 0.0,
+  "example": {
+    "tracking_optimal_alpha": 0.6938775510204082,
+    "joint_optimal_alpha": 0.4022847817217463,
+    "joint_eta": 1.0764163372859026,
+    "expected_next_loss": 0.08884497145366699,
+    "monte_carlo_next_loss": 0.08852268900230516,
+    "expected_plugin_risk": 0.43628281787424567,
+    "monte_carlo_plugin_risk": 0.43551000057873535,
+    "true_D": 1.0199999999999998,
+    "estimated_D_mean": 1.0184545298573477,
+    "true_V": 0.45,
+    "estimated_V_mean": 0.4522414203398618,
+    "plugin_excess_risk": 0.12403791991506202,
+    "fixed_EMA_01_excess_risk": 0.5184551020408162
+  }
+}

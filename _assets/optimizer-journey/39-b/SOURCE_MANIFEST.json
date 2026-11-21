@@ -1,0 +1,37 @@
+{
+  "entry": "39-b",
+  "reproduction_scope": "algebra",
+  "minimal_command": "python core.py",
+  "sources": [
+    {
+      "source": "CrossAdamW/theory/39B_DESCENT_TRANSFER_ZH.md",
+      "source_sha256": "866ea9b6ff7c94b0f1dfde1b055890570b73c3087e6b5fa28e288e845939731b",
+      "published": "theory.md",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "CrossAdamW/experiments/20261114_candidate39/39B_ASSESSMENT_ZH.md",
+      "source_sha256": "9af0c99c773a62f379247d000dfe0e8e146e56836c244d635a1f6e73b5d955de",
+      "published": "report.md",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "CrossAdamW/theory/verify_39b.py",
+      "source_sha256": "a2fe6f883ceca8c25ed485c2def707be775b203a9d9d423a90f112e9da8cd7d1",
+      "published": "core.py",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "CrossAdamW/theory/30_ARITHMETIC_HARMONIC_VERIFICATION.json",
+      "source_sha256": "bc4e61c863e2b806aba30a111f1144484ded116c7c89fc2b8da5de93ef2c4f53",
+      "published": "evidence/30_ARITHMETIC_HARMONIC_VERIFICATION.json",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "CrossAdamW/theory/31_ARITHMETIC_HARMONIC_VERIFICATION.json",
+      "source_sha256": "e46c965a27b121ce2641ead5165331cd1617712ac531a8cf1e56e01df79b5815",
+      "published": "evidence/31_ARITHMETIC_HARMONIC_VERIFICATION.json",
+      "transformation": "byte-identical"
+    }
+  ]
+}

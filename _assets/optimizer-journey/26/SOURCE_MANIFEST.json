@@ -1,0 +1,31 @@
+{
+  "entry": "26",
+  "reproduction_scope": "historical-core",
+  "minimal_command": "python reproduce.py",
+  "sources": [
+    {
+      "source": "CrossAdamW/theory/26_ENERGY_ABSORPTION_WITHOUT_IDENTIFICATION_ZH.md",
+      "source_sha256": "886ec66cd0d72317043f6b2fc70d6c5e75f4ad123138ad059c2ab604bd594b79",
+      "published": "theory.md",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "CrossAdamW/experiments/20261110_energy_absorption/README_ZH.md",
+      "source_sha256": "603d6a466dce24f82c73fd6fc31c1dcc8332dec6d28f74bc92f3294bd6b00dee",
+      "published": "report.md",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "CrossAdamW/experiments/20261110_energy_absorption/run.py",
+      "source_sha256": "4e0a3d19106f28dc61570d00a46b08c96ed8b903c4b5038ec9e57a20efdac340",
+      "published": "core.py",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "CrossAdamW/experiments/20261110_energy_absorption/results.json",
+      "source_sha256": "722f9a3dbb6bc8d91ff0bfd2ab1e273a258da072b5eae47e439eedded838c90e",
+      "published": "evidence/results.json",
+      "transformation": "byte-identical"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+---
+layout: default
+---
+<article class="post" lang="{{ page.lang }}">
+  <header class="post-header">
+    <p><a href="{{ page.alternate_url | relative_url }}" hreflang="{% if page.lang == 'zh' %}en{% else %}zh{% endif %}">{% if page.lang == 'zh' %}Read in English{% else %}阅读中文版{% endif %}</a> · <a href="{{ '/research/' | append: page.lang | append: '/' | relative_url }}">{% if page.lang == 'zh' %}研究历程目录{% else %}Research index{% endif %}</a></p>
+    <h1 class="post-title">{{ page.title | escape }}</h1>
+    <p class="post-meta">2026-11-21 · {% if page.lang == 'zh' %}回顾整理{% else %}Retrospective{% endif %}</p>
+  </header>
+  <div class="post-content">{{ content }}</div>
+</article>

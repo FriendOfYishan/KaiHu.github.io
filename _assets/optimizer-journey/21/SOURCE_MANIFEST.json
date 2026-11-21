@@ -1,0 +1,25 @@
+{
+  "entry": "21",
+  "reproduction_scope": "algebra",
+  "minimal_command": "python core.py",
+  "sources": [
+    {
+      "source": "CrossAdamW/theory/21_LOCAL_IDENTIFIABLE_JOINT_ZH.md",
+      "source_sha256": "80c87a1116e84120f75d2d4be106c5cb1c3c2b33a2e97f1efe1c28e17f84b28a",
+      "published": "theory.md",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "CrossAdamW/experiments/20261110_theory21/verify.py",
+      "source_sha256": "1d81f1e0b05809935eb0064fba2dd33e1855fbdce7b69a69ad9d673f6e15a259",
+      "published": "core.py",
+      "transformation": "rebase output path only; formulas unchanged"
+    },
+    {
+      "source": "CrossAdamW/experiments/20261110_theory21/verification.json",
+      "source_sha256": "d38916ed36d38dc4fb1fc35008cf20852756379cc5406856b1f94f1823dfcd3a",
+      "published": "evidence/verification.json",
+      "transformation": "byte-identical"
+    }
+  ]
+}

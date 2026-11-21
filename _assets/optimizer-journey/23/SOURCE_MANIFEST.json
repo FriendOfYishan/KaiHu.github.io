@@ -1,0 +1,25 @@
+{
+  "entry": "23",
+  "reproduction_scope": "algebra",
+  "minimal_command": "python core.py",
+  "sources": [
+    {
+      "source": "CrossAdamW/theory/23_ALIGNMENT_ENERGY_NO_EXTRA_GRAD_ZH.md",
+      "source_sha256": "0dd100b9dac8fff5e8878f28bfb9ee1dfd4b56ae65ccc022c38095b0b4c74986",
+      "published": "theory.md",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "CrossAdamW/experiments/20261110_theory23/verify.py",
+      "source_sha256": "503aacfbf4b35220f4ec8718d4ace2eddbf4234c27a292b2653cae05043de6e2",
+      "published": "core.py",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "CrossAdamW/experiments/20261110_theory23/results.json",
+      "source_sha256": "9ad9a47138b26b292267f78fd9dc9347e8dde5887b2e9cac2f0398d904b63a1b",
+      "published": "evidence/results.json",
+      "transformation": "byte-identical"
+    }
+  ]
+}

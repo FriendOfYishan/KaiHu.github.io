@@ -1,0 +1,75 @@
+---
+layout: page
+title: "优化器研究历程"
+lang: zh
+permalink: /research/zh/
+---
+
+[中文]({{ "/research/zh/" | relative_url }}) · [English]({{ "/research/en/" | relative_url }})
+
+从交叉项降噪到残差压缩，再到历史与创新分离。这里保留成功的等式、失败的假设、未通过的实验门槛，以及还没有答案的问题。
+
+**51 个主编号 + 9 篇分支/工程记录，共 60 篇短记。** 01–05 等条目属于理论和证据审计，不冒称 51 个都已实现训练的独立算法。全部文章在 2026-11-21 回顾整理，不伪造历史发表日期。
+
+每篇只有四个问题，附件只留核心机制/核验、一个主要汇报及必要小证据。附件区分代数核验、合成更新与历史训练复现，未提供完整训练复现的条目会明示。
+
+- [01 · 把 v2.1 写成可检验的理论]({{ "/research/zh/01/" | relative_url }})
+- [02 · CrossAdamW 的条件快率]({{ "/research/zh/02/" | relative_url }})
+- [03 · 让实验事实与理论各就各位]({{ "/research/zh/03/" | relative_url }})
+- [04 · 明确我们还不能宣称什么]({{ "/research/zh/04/" | relative_url }})
+- [05 · 核验是研究记录，不是性能证明]({{ "/research/zh/05/" | relative_url }})
+- [06 · 校准 v3：平滑尺度仍不够]({{ "/research/zh/06/" | relative_url }})
+- [07 · 下降门控卡在可识别性]({{ "/research/zh/07/" | relative_url }})
+- [08 · 一个系数的前移梯度分支]({{ "/research/zh/08/" | relative_url }})
+- [09 · 多层缩减：先纠正变量变换]({{ "/research/zh/09/" | relative_url }})
+- [10 · 相容累计矩与完整位移噪声]({{ "/research/zh/10/" | relative_url }})
+- [11 · 二次函数里的 1/T]({{ "/research/zh/11/" | relative_url }})
+- [12 · 曲率—噪声杠杆的反例]({{ "/research/zh/12/" | relative_url }})
+- [13 · 只用已有状态补偿缩减]({{ "/research/zh/13/" | relative_url }})
+- [14 · AWA：简化公式，也暴露障碍]({{ "/research/zh/14/" | relative_url }})
+- [15 · AWA 前移混合：原式先过合法性]({{ "/research/zh/15/" | relative_url }})
+- [16 · 历史偏差抵消不等于无代价降噪]({{ "/research/zh/16/" | relative_url }})
+- [17 · 漂移—噪声模型：预测能迁移吗]({{ "/research/zh/17/" | relative_url }})
+- [18 · 记忆与移动速度的联合界]({{ "/research/zh/18/" | relative_url }})
+- [19 · 有限步指数扫描的陷阱]({{ "/research/zh/19/" | relative_url }})
+- [20 · 从跟踪误差转向有效更新]({{ "/research/zh/20/" | relative_url }})
+- [21 · 局部可识别的联合选择]({{ "/research/zh/21/" | relative_url }})
+- [22 · 把移动与记忆放进同一势函数]({{ "/research/zh/22/" | relative_url }})
+- [23 · 不加梯度的对齐能量分析]({{ "/research/zh/23/" | relative_url }})
+- [24 · 更紧的界覆盖了哪些状态]({{ "/research/zh/24/" | relative_url }})
+- [25 · 低成本偏差识别没有过门槛]({{ "/research/zh/25/" | relative_url }})
+- [26 · 不识别漂移也能闭合能量界]({{ "/research/zh/26/" | relative_url }})
+- [27 · 跟踪快了，优化可能停了]({{ "/research/zh/27/" | relative_url }})
+- [28 · 运输修正与等价性审计]({{ "/research/zh/28/" | relative_url }})
+- [29 · 按实际移动分配逐坐标记忆]({{ "/research/zh/29/" | relative_url }})
+- [30 · 算术—调和组合的起点]({{ "/research/zh/30/" | relative_url }})
+- [31 · 调和候选的条件收敛]({{ "/research/zh/31/" | relative_url }})
+- [32 · 原始加权和与调和分母]({{ "/research/zh/32/" | relative_url }})
+- [33 · 少一次乘法，多一个失配项]({{ "/research/zh/33/" | relative_url }})
+- [34 · 倒数残差与稳定 34]({{ "/research/zh/34/" | relative_url }})
+- [34-count · 计数恢复：换一个有结构的问题]({{ "/research/zh/34-count/" | relative_url }})
+- [34-task · 稳定 34 的任务定位]({{ "/research/zh/34-task/" | relative_url }})
+- [35 · 一阶 EMA、二阶长记忆]({{ "/research/zh/35/" | relative_url }})
+- [36 · Flash：核快不等于训练快]({{ "/research/zh/36/" | relative_url }})
+- [37 · 让尺度刷新支付耗散代价]({{ "/research/zh/37/" | relative_url }})
+- [37-batch · Layer37-B：更快步数有梯度代价]({{ "/research/zh/37-batch/" | relative_url }})
+- [37-layer · Layer37：状态减半，信息也少了]({{ "/research/zh/37-layer/" | relative_url }})
+- [38 · 保留信号，只压缩残差]({{ "/research/zh/38/" | relative_url }})
+- [38-shape · 形状预算的平行分支]({{ "/research/zh/38-shape/" | relative_url }})
+- [39 · 重构得更准，参考方向却不够好]({{ "/research/zh/39/" | relative_url }})
+- [39-b · 把重构接回真实下降]({{ "/research/zh/39-b/" | relative_url }})
+- [40 · 从恢复分母转向分配噪声]({{ "/research/zh/40/" | relative_url }})
+- [40-s · 40-S：删除信号门控]({{ "/research/zh/40-s/" | relative_url }})
+- [41 · 残差含义不明时的保守分配]({{ "/research/zh/41/" | relative_url }})
+- [42 · 残差时钟：把统计对齐计算块]({{ "/research/zh/42/" | relative_url }})
+- [43 · 压缩历史仍没解决优化不足]({{ "/research/zh/43/" | relative_url }})
+- [44 · 先归一化再积累动量]({{ "/research/zh/44/" | relative_url }})
+- [45 · 残差分母：短期领先为何反转]({{ "/research/zh/45/" | relative_url }})
+- [46 · 成对截断的残差时钟]({{ "/research/zh/46/" | relative_url }})
+- [46-legacy · 旧 46a/46b：先修公式再看结果]({{ "/research/zh/46-legacy/" | relative_url }})
+- [47 · 投影删掉噪声，也删掉方向]({{ "/research/zh/47/" | relative_url }})
+- [48 · 一份动量加行列残差]({{ "/research/zh/48/" | relative_url }})
+- [49 · 放大步子未必改善方向]({{ "/research/zh/49/" | relative_url }})
+- [50 · 精确预算为什么没有实际作用]({{ "/research/zh/50/" | relative_url }})
+- [51 · 历史与创新分开：进展与边界]({{ "/research/zh/51/" | relative_url }})
+- [51-fused · 51 融合：质量结论之后再谈工程]({{ "/research/zh/51-fused/" | relative_url }})

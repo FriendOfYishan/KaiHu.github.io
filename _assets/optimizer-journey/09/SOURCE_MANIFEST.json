@@ -1,0 +1,37 @@
+{
+  "entry": "09",
+  "reproduction_scope": "algebra",
+  "minimal_command": "python core.py",
+  "sources": [
+    {
+      "source": "CrossAdamW/theory/09_MULTILEVEL_SHRINK_AUDIT_ZH.md",
+      "source_sha256": "b03c07ae76f0e66f713b63013a037c463bb1a33b8c021e5a54337f0e5182d90b",
+      "published": "theory.md",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "CrossAdamW/experiments/20261108_multilevel/README_ZH.md",
+      "source_sha256": "e7f0fca74f1b7c85ed21f83b2c8533b1dbc306ba868a6034b9c71e0e22a25028",
+      "published": "report.md",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "CrossAdamW/experiments/20261108_multilevel/verify.py",
+      "source_sha256": "97e1f0e5e2342bbf8ce90b77602fd192f2d9ed6a02b3024eed279d5c8bad2682",
+      "published": "core.py",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "CrossAdamW/experiments/20261108_multilevel/quadratic_results.json",
+      "source_sha256": "434c81bff9065381e392128f134cda4d9034ffd1174e190e307a0b4e7f0b319e",
+      "published": "evidence/quadratic_results.json",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "CrossAdamW/experiments/20261108_multilevel/results.json",
+      "source_sha256": "bc141ba803a054f227e74328dbc5299d01dc87a26c48442dfc63f42c329a13b2",
+      "published": "evidence/results.json",
+      "transformation": "byte-identical"
+    }
+  ]
+}

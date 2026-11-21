@@ -1,0 +1,31 @@
+{
+  "entry": "24",
+  "reproduction_scope": "historical-core",
+  "minimal_command": "python reproduce.py",
+  "sources": [
+    {
+      "source": "CrossAdamW/theory/24_ALIGNMENT_BOUND_COMPARISON_ZH.md",
+      "source_sha256": "ac619c4b20cb18df6e6d156d0341349a0573e49fd54c634110edc3c90dc04525",
+      "published": "theory.md",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "CrossAdamW/experiments/20261110_alignment_comparison/README_ZH.md",
+      "source_sha256": "de482d6b7f440432c0d55e625178b324321ac6e08b1805434c302fa72e9c40f7",
+      "published": "report.md",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "CrossAdamW/experiments/20261110_alignment_comparison/run.py",
+      "source_sha256": "a5e3ae65c468c60d24b6430f65b36f2e7db4eb91c526729c6d87595f8abfe1e5",
+      "published": "core.py",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "CrossAdamW/experiments/20261110_alignment_comparison/results.json",
+      "source_sha256": "0908061f56077348dc7a7e603aaa56ebf78372f39833cf3b3718a6c80cb32502",
+      "published": "evidence/results.json",
+      "transformation": "byte-identical"
+    }
+  ]
+}

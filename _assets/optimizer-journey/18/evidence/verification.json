@@ -1,0 +1,30 @@
+{
+  "numpy_torch_max_error": 1.7763568394002505e-15,
+  "young_inequality_checked": true,
+  "stationary_variance": [
+    {
+      "t": 512,
+      "alpha": 0.012500000000000004,
+      "variance": 0.00646564906396395,
+      "ratio_to_half_alpha": 1.0345038502342316
+    },
+    {
+      "t": 1000,
+      "alpha": 0.010000000000000002,
+      "variance": 0.0051125598991976235,
+      "ratio_to_half_alpha": 1.0225119798395246
+    },
+    {
+      "t": 10000,
+      "alpha": 0.00464158883361278,
+      "variance": 0.0023345980005259575,
+      "ratio_to_half_alpha": 1.005947783922439
+    },
+    {
+      "t": 100000,
+      "alpha": 0.0021544346900318843,
+      "variance": 0.0010792133653126947,
+      "ratio_to_half_alpha": 1.0018529411042143
+    }
+  ]
+}

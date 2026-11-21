@@ -1,0 +1,31 @@
+{
+  "entry": "46-legacy",
+  "reproduction_scope": "gpu-smoke",
+  "minimal_command": "python reproduce.py",
+  "sources": [
+    {
+      "source": "Layer Flash/experiments/20261118_candidate46/VERIFY_ZH.md",
+      "source_sha256": "599cc8bdd174d9703e2c4bea88ad67c4333f32b37a2cad5f566b1a86ee6e2190",
+      "published": "report.md",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "Layer Flash/experiments/20261118_candidate46/lab46.py",
+      "source_sha256": "9fc12a65a41f2dfd48aa4be58609e5102c1de20846cd831fae9d8f881ad1edc8",
+      "published": "core.py",
+      "transformation": "AST optimizer/kernel dependency slice"
+    },
+    {
+      "source": "Layer Flash/experiments/20261116_candidate45/lab45.py",
+      "source_sha256": "e2da26681d5ff70ffec100be20ea7c4ac3048c26a1608cbca205f009ddba3c10",
+      "published": "lab45.py",
+      "transformation": "AST optimizer/kernel dependency slice"
+    },
+    {
+      "source": "Layer Flash/experiments/20261118_candidate46/mathcheck46.json",
+      "source_sha256": "12aee366ca3d9ac52c9d0c777695bd4c0166746614968228a6d53dc076dc2fe3",
+      "published": "evidence/mathcheck46.json",
+      "transformation": "byte-identical"
+    }
+  ]
+}

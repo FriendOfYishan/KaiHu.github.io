@@ -1,0 +1,48 @@
+{
+  "symbolic_identity": true,
+  "variation_regret_checks": [
+    {
+      "shrink": 0.0,
+      "minimum_regret_bound_slack": 39.75248494759553,
+      "max_positive_variation_ratio": 0.46914715600999457,
+      "weight_decay_unroll_error": 4.274358644806853e-15
+    },
+    {
+      "shrink": 0.5,
+      "minimum_regret_bound_slack": 12.419335838006731,
+      "max_positive_variation_ratio": 0.24099582578691545,
+      "weight_decay_unroll_error": 4.107825191113079e-15
+    },
+    {
+      "shrink": 0.9,
+      "minimum_regret_bound_slack": 7.827350934694628,
+      "max_positive_variation_ratio": 0.07567439451963275,
+      "weight_decay_unroll_error": 1.0658141036401503e-14
+    }
+  ],
+  "scalar_nonconvex_path_checks": [
+    {
+      "shrink": 0.0,
+      "path_descent_slack": 7174.446870120009,
+      "energy_ratio": 0.003718611222389596,
+      "observed_radius": 2.1485375341376898,
+      "note": "Observed radius checks a finite path, not a uniform-in-time boundedness proof."
+    },
+    {
+      "shrink": 0.5,
+      "path_descent_slack": 10719.208916230305,
+      "energy_ratio": 0.0029920836500017868,
+      "observed_radius": 2.2953500205091624,
+      "note": "Observed radius checks a finite path, not a uniform-in-time boundedness proof."
+    },
+    {
+      "shrink": 0.9,
+      "path_descent_slack": 43960.3557149498,
+      "energy_ratio": 0.0009662372804441373,
+      "observed_radius": 2.4990161515375604,
+      "note": "Observed radius checks a finite path, not a uniform-in-time boundedness proof."
+    }
+  ],
+  "constant_signal_matched_decay_error": 0.0,
+  "note": "Finite checks corroborate proofs, not proofs of general NN convergence."
+}

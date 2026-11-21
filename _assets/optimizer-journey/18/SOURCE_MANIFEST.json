@@ -1,0 +1,37 @@
+{
+  "entry": "18",
+  "reproduction_scope": "algebra",
+  "minimal_command": "python core.py",
+  "sources": [
+    {
+      "source": "CrossAdamW/theory/18_JOINT_TRACKING_BOUND_ZH.md",
+      "source_sha256": "d479e9274924167a24720d6402a5965e4dda2ec848705c3544a63e0f2872609a",
+      "published": "theory.md",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "CrossAdamW/experiments/20261110_joint/README_ZH.md",
+      "source_sha256": "61c706e90b9607fe5e8c0c26e9133dd300f65541953f7c344c7e1e889c81bdcf",
+      "published": "report.md",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "CrossAdamW/experiments/20261110_joint/verify.py",
+      "source_sha256": "603e44a4c1657fce5255962456028b858c5b9dfeb75ba62a2b5cb3a47ef31533",
+      "published": "core.py",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "CrossAdamW/experiments/20261110_joint/preview.py",
+      "source_sha256": "d40f53dd0eef39bc141028ae2f1b68dfa0278559a6442d2cfe248297212f3fc5",
+      "published": "preview.py",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "CrossAdamW/experiments/20261110_joint/verification.json",
+      "source_sha256": "efc23864ca4136fdd38d6c903d4a280fbb69596391ff8183bab89b8a64dacaa7",
+      "published": "evidence/verification.json",
+      "transformation": "byte-identical"
+    }
+  ]
+}

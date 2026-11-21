@@ -1,0 +1,44 @@
+{
+ "residual_identity": {
+  "max_rel_error": 1.2199471655094385e-07,
+  "statement": "|g_t-m_t| = beta*|g_t-m_{t-1}|: the same residual times 0.9, not a new quantity (asserting (1-beta) instead gives a factor-9 error, which is exactly what this check caught)"
+ },
+ "predictability": {
+  "literal": {
+   "corr_den_vs_abs_g": 0.03640967607498169,
+   "rel_range": 0.0026560896076261997
+  },
+  "history_only": {
+   "corr_den_vs_abs_g": 0.0328565277159214,
+   "rel_range": 0.002666088519617915
+  },
+  "statement": "Using r_t makes the denominator depend on the current gradient (structurally breaks the \"scale is history-measurable\" property of 44); at rho=0.999 the effect is only ~0.3% in scale, so it is a structural defect, not a large practical one. Using q_{t-1} removes it entirely."
+ },
+ "per_coordinate_collapse": {
+  "cv_literal": 0.0016854868736118078,
+  "cv_plain_ema": 0.025018710643053055,
+  "ratio": 0.06736905421142544,
+  "statement": "r_t is re-anchored to the group mean q every step, so the coordinate part is only (1-rho)*beta*e_i: the coordinate variation collapses to 4% of a plain per-coordinate EMA"
+ },
+ "time_constant": {
+  "intended_rho": 0.999,
+  "intended_tau_steps": 999.9999999999991,
+  "literal_weight": 0.0008100000000000008,
+  "literal_tau_steps": 1234.5679012345665,
+  "statement": "The literal residual is 0.9x the standard one, so the time constant is only ~23% slower, not an order of magnitude"
+ },
+ "boundedness": {
+  "max_abs_u": 1.0,
+  "u_first_step": 0.9918656945228577,
+  "statement": "|u|<=1 holds coordinate-wise even with r=0; the first step is essentially sign(g_1), same order as Adam"
+ },
+ "index_order": {
+  "wrong": "r_t uses e_t and u_t uses r_t, so the step depends on the current gradient; also q_{t-1}=mean_i r_{t,i} and r_t=rho*q_{t-1}+... are mutually defined",
+  "fixed": "update q_t = mean_i r_{t,i} after the parameter step and use q_{t-1} in the denominator",
+  "statement": "put the q update after the parameter update and use q_{t-1}"
+ },
+ "extra_semantic_note": {
+  "shape": "u = m/(|m|+r) is strictly smaller than Adam-style m/sqrt(m^2+r^2) in the mid signal-to-noise band (0.5 vs 0.707 when |m|=r), so it inherits the under-stepping that 43/44/45 already measured",
+  "decay": "lambda is unspecified; the whole comparison protocol uses lambda=0, so lambda must be 0 or tuned separately"
+ }
+}

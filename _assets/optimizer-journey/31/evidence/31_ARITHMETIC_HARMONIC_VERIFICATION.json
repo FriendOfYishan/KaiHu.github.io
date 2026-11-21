@@ -1,0 +1,9 @@
+{
+  "purpose": "CPU algebra checks only; no GPU, training, or empirical rate claim",
+  "moment_bound_cases": 5000,
+  "max_variance_identity_abs_error": 6.9111383282916e-14,
+  "normalized_weight_steps": 11113,
+  "conditional_tracking_cases": 5000,
+  "pathwise_descent_cases": 3000,
+  "all_checks_passed": true
+}

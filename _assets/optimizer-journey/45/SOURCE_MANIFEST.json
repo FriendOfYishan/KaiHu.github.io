@@ -1,0 +1,25 @@
+{
+  "entry": "45",
+  "reproduction_scope": "gpu-smoke",
+  "minimal_command": "python reproduce.py",
+  "sources": [
+    {
+      "source": "Layer Flash/theory/45_RESIDUAL_DENOMINATOR_ZH.md",
+      "source_sha256": "efea38407a8be1fb523aaa2aaeaa6df4aa5f30339740f97f6ede868562fac477",
+      "published": "theory.md",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "Layer Flash/experiments/20261116_candidate45_long/FINAL_SUMMARY_ZH.md",
+      "source_sha256": "227ff76d40829f1d3aed590d4b82f21b8d5eeeaf99fe7f99196ea801d276d459",
+      "published": "report.md",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "Layer Flash/experiments/20261116_candidate45/lab45.py",
+      "source_sha256": "e2da26681d5ff70ffec100be20ea7c4ac3048c26a1608cbca205f009ddba3c10",
+      "published": "core.py",
+      "transformation": "AST optimizer/kernel dependency slice"
+    }
+  ]
+}

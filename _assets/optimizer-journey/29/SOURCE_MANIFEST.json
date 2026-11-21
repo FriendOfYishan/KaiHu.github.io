@@ -1,0 +1,31 @@
+{
+  "entry": "29",
+  "reproduction_scope": "algebra",
+  "minimal_command": "python core.py",
+  "sources": [
+    {
+      "source": "CrossAdamW/theory/29_COORDINATE_MEMORY_MOTION_CANDIDATE_ZH.md",
+      "source_sha256": "e014cd776245bca2341f295bfaa087ccb4b559589e0f81c926f4ca7a6821d479",
+      "published": "theory.md",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "CrossAdamW/experiments/20261112_lm_pretraining/FINAL_COMBINED_REPORT_ZH.md",
+      "source_sha256": "c7520b973333e09c8fedb5a0f9a8e9ba323a4de44ef47801548f7092579000b9",
+      "published": "report.md",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "CrossAdamW/experiments/20261111_memory_motion/verify.py",
+      "source_sha256": "500fd3cb20ccf1ad9fcc9e2899c737aa2cda4ab91c350f7313698a830ff2cb9a",
+      "published": "core.py",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "CrossAdamW/experiments/20261111_memory_motion/results.json",
+      "source_sha256": "854854ee98d52c108f59179419e547695efcf4e19271b66ccfc4eb7e74c8c435",
+      "published": "evidence/results.json",
+      "transformation": "byte-identical"
+    }
+  ]
+}

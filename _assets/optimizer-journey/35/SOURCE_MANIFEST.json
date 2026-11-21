@@ -1,0 +1,25 @@
+{
+  "entry": "35",
+  "reproduction_scope": "gpu-smoke",
+  "minimal_command": "python reproduce.py",
+  "sources": [
+    {
+      "source": "CrossAdamW/theory/35_CONSTANT_FIRST_DECAY_SECOND_VR_ZH.md",
+      "source_sha256": "709d2d96fb564ab0a4fb928883b9bb67ea5f5a45fcb390e46289adb94aaccafc",
+      "published": "theory.md",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "CrossAdamW/experiments/20261112_moment_ablation/RESULTS_ZH.md",
+      "source_sha256": "eaa767c774553b462eae97c80b5e7f72c4c77f0eaa5c27b7f4e45183538ecb14",
+      "published": "report.md",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "CrossAdamW/experiments/20261112_moment_ablation/optim.py",
+      "source_sha256": "2face92f3f7e5c12af9d166aee45669db3b49ecb86e2f8fca3ff18d3e3276140",
+      "published": "core.py",
+      "transformation": "byte-identical"
+    }
+  ]
+}

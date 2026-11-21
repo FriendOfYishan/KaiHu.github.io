@@ -1,0 +1,30 @@
+{
+  "compiled_on": "2026-11-21",
+  "structure": {
+    "entries": 60,
+    "bilingual_posts": 120,
+    "python_files_parsed": 89,
+    "transformed_sources": 15,
+    "source_hashes": "passed",
+    "local_links": "passed",
+    "zip_contents": "passed",
+    "credential_scan": "passed"
+  },
+  "cpu_entry_checks": 49,
+  "shared_cpu_verifier_entries": [
+    "02",
+    "03",
+    "04",
+    "05"
+  ],
+  "gpu_entries_static_only": [
+    "35",
+    "40-s",
+    "43",
+    "44",
+    "45",
+    "46",
+    "46-legacy"
+  ],
+  "scope": "Algebra and synthetic mechanism checks only; historical GPU training tables were not rerun."
+}

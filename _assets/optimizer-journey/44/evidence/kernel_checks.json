@@ -1,0 +1,61 @@
+{
+  "update_check": {
+    "44": {
+      "theta": 1.1920928955078125e-07,
+      "update_ema": 1.7881393432617188e-07,
+      "residual_q": 1.7053025658242404e-13,
+      "new_statistic_error_vs_update_size": 0.0077220075763762
+    },
+    "44-fp32": {
+      "theta": 1.1920928955078125e-07,
+      "update_ema": 1.7881393432617188e-07,
+      "residual_q": 2.2737367544323206e-13,
+      "new_statistic_error_vs_update_size": 1.1920928955078125e-07
+    },
+    "44-cur": {
+      "theta": 1.1920928955078125e-07,
+      "update_ema": 8.940696716308594e-08,
+      "residual_q": 1.7053025658242404e-13,
+      "new_statistic_error_vs_update_size": 0.0077220075763762
+    },
+    "44-nos": {
+      "theta": 1.1920928955078125e-07,
+      "update_ema": 7.62939453125e-06,
+      "residual_q": 1.7053025658242404e-13,
+      "new_statistic_error_vs_update_size": 0.007662835065275431
+    },
+    "43": {
+      "theta": 1.1920928955078125e-07,
+      "momentum": 9.313225746154785e-10,
+      "residual_q": 2.2737367544323206e-13,
+      "new_statistic_error_vs_update_size": 0.0
+    }
+  },
+  "threshold": {
+    "theta_and_state_groups": 3e-05,
+    "new_statistic_vs_update_size_bf16": 0.008203125,
+    "new_statistic_vs_update_size_fp32": 9.5367431640625e-07
+  },
+  "steps": 8,
+  "zero_gradient_step": 3,
+  "bf16_statistic_drift": {
+    "steps": 30,
+    "max_abs_drift": 0.00012699468305141758,
+    "state_rms": 0.0022911887086587675,
+    "drift_relative_to_state_rms": 0.05542742183194445,
+    "expected_order": 0.03906250000000001
+  },
+  "shadow_state": "the reference writes its old S (43: old momentum) into the kernel state before each step",
+  "state_bytes": {
+    "44": 183542392,
+    "44-fp32": 244683384,
+    "44-cur": 183542392,
+    "44-nos": 183542392,
+    "43": 122401400,
+    "AdamW": 244563968
+  },
+  "parameters": 30555136,
+  "padded": 30570496,
+  "tiles": 29854,
+  "groups": 60
+}

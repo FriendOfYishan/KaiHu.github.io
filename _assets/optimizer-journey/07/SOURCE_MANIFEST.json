@@ -1,0 +1,19 @@
+{
+  "entry": "07",
+  "reproduction_scope": "historical-core",
+  "minimal_command": "python reproduce.py",
+  "sources": [
+    {
+      "source": "CrossAdamW/theory/07_DESCENT_GATED_RESEARCH_ZH.md",
+      "source_sha256": "fb3cf6f9d9fbdc6e83e1560d736d83f057e60bd659ba022a84e4a4b8115299d6",
+      "published": "theory.md",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "CrossAdamW/optimizers/descent_gate.py",
+      "source_sha256": "6045c1b366c606ab6fc623513008706f5c1c43fb1ccdf30fbf5cd95df42688a3",
+      "published": "core.py",
+      "transformation": "byte-identical"
+    }
+  ]
+}

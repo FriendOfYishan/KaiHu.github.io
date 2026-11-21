@@ -1,0 +1,19 @@
+{
+  "entry": "49",
+  "reproduction_scope": "mechanism",
+  "minimal_command": "python reproduce.py",
+  "sources": [
+    {
+      "source": "Layer Flash/experiments/20261120_candidate49/RESULTS_ZH.md",
+      "source_sha256": "dc2b31b405b00fe097263608d19a2cf5b0aead44d75034d7a0f07fa233ab760b",
+      "published": "report.md",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "Layer Flash/experiments/20261120_candidate51/optzoo.py",
+      "source_sha256": "a8dda271cf69a2360d31da9ddce9be02302c6ba88aa14528d0c2b5977139dcdc",
+      "published": "core.py",
+      "transformation": "AST dependency slice: C49"
+    }
+  ]
+}

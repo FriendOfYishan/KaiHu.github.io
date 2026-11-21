@@ -1,0 +1,25 @@
+{
+  "entry": "43",
+  "reproduction_scope": "gpu-smoke",
+  "minimal_command": "python reproduce.py",
+  "sources": [
+    {
+      "source": "CrossAdamW/experiments/20261115_candidate43_1h/FINAL_SUMMARY_ZH.md",
+      "source_sha256": "1636ff08ddf87f309b98f716aa63a0bab554b7de144164d3c302d4758b1c2d18",
+      "published": "report.md",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "CrossAdamW/experiments/20261115_candidate43_1h/lab.py",
+      "source_sha256": "f9b080bc0e881372d7319823784fbbf0f70a0425ed67726f29623a9edfcb66fc",
+      "published": "core.py",
+      "transformation": "AST optimizer/kernel dependency slice"
+    },
+    {
+      "source": "CrossAdamW/experiments/20261115_candidate43_1h/kernel_checks.json",
+      "source_sha256": "c58373a3b1494a648d7adfae7a046b2aac1fbdfbebf4827a9c68315c93821432",
+      "published": "evidence/kernel_checks.json",
+      "transformation": "byte-identical"
+    }
+  ]
+}

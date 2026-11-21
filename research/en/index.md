@@ -1,0 +1,75 @@
+---
+layout: page
+title: "Optimizer research journey"
+lang: en
+permalink: /research/en/
+---
+
+[中文]({{ "/research/zh/" | relative_url }}) · [English]({{ "/research/en/" | relative_url }})
+
+From cross-term denoising to residual compression and separated history/innovation. The record retains valid identities, failed hypotheses, missed gates and open questions.
+
+**51 main identifiers plus 9 branch/engineering notes: 60 short entries.** Some entries are theory/evidence audits, not separate trained algorithms. This retrospective was compiled on 2026-11-21.
+
+Each note answers four questions. Small attachments distinguish algebra checks, synthetic optimizer runs and historical training reproduction; unavailable standalone training reproduction is stated explicitly. Source reports remain in Chinese.
+
+- [01 · Formalizing v2.1]({{ "/research/en/01/" | relative_url }})
+- [02 · A conditional rate for CrossAdamW]({{ "/research/en/02/" | relative_url }})
+- [03 · Separating evidence from theory]({{ "/research/en/03/" | relative_url }})
+- [04 · Defining the scope of the claims]({{ "/research/en/04/" | relative_url }})
+- [05 · What verification can establish]({{ "/research/en/05/" | relative_url }})
+- [06 · Calibrated v3]({{ "/research/en/06/" | relative_url }})
+- [07 · Descent gating needs usable bounds]({{ "/research/en/07/" | relative_url }})
+- [08 · The predictive-shrink branch]({{ "/research/en/08/" | relative_url }})
+- [09 · Auditing multilevel shrinkage]({{ "/research/en/09/" | relative_url }})
+- [10 · Coherent cumulative moments]({{ "/research/en/10/" | relative_url }})
+- [11 · A 1/T rate in a quadratic model]({{ "/research/en/11/" | relative_url }})
+- [12 · Auditing the curvature-noise lever]({{ "/research/en/12/" | relative_url }})
+- [13 · Compensation from existing state]({{ "/research/en/13/" | relative_url }})
+- [14 · AWA: simplification and obstacles]({{ "/research/en/14/" | relative_url }})
+- [15 · Making preview mixing well defined]({{ "/research/en/15/" | relative_url }})
+- [16 · Cancelling history bias]({{ "/research/en/16/" | relative_url }})
+- [17 · Drift, noise and memory]({{ "/research/en/17/" | relative_url }})
+- [18 · Joint memory and movement]({{ "/research/en/18/" | relative_url }})
+- [19 · Finite-horizon exponent scans]({{ "/research/en/19/" | relative_url }})
+- [20 · From tracking to effective updates]({{ "/research/en/20/" | relative_url }})
+- [21 · Locally identifiable joint choices]({{ "/research/en/21/" | relative_url }})
+- [22 · One potential for memory and movement]({{ "/research/en/22/" | relative_url }})
+- [23 · Alignment energy without extra gradients]({{ "/research/en/23/" | relative_url }})
+- [24 · When is the sharper bound useful]({{ "/research/en/24/" | relative_url }})
+- [25 · Bias identification missed the gate]({{ "/research/en/25/" | relative_url }})
+- [26 · Closing the energy bound]({{ "/research/en/26/" | relative_url }})
+- [27 · Tracking is not optimization]({{ "/research/en/27/" | relative_url }})
+- [28 · Transport correction and equivalence]({{ "/research/en/28/" | relative_url }})
+- [29 · Memory from actual movement]({{ "/research/en/29/" | relative_url }})
+- [30 · Arithmetic-harmonic moments]({{ "/research/en/30/" | relative_url }})
+- [31 · Convergence of the harmonic candidate]({{ "/research/en/31/" | relative_url }})
+- [32 · Raw weighted sums]({{ "/research/en/32/" | relative_url }})
+- [33 · Ordinary harmonic averaging]({{ "/research/en/33/" | relative_url }})
+- [34 · Reciprocal residuals]({{ "/research/en/34/" | relative_url }})
+- [34-count · Count-calibrated recovery]({{ "/research/en/34-count/" | relative_url }})
+- [34-task · Task scope for stable 34]({{ "/research/en/34-task/" | relative_url }})
+- [35 · Separating the two memories]({{ "/research/en/35/" | relative_url }})
+- [36 · Flash evidence momentum]({{ "/research/en/36/" | relative_url }})
+- [37 · Dissipation-paid scale refresh]({{ "/research/en/37/" | relative_url }})
+- [37-batch · Layer37-B and gradient accounting]({{ "/research/en/37-batch/" | relative_url }})
+- [37-layer · Layer37: the cost of compression]({{ "/research/en/37-layer/" | relative_url }})
+- [38 · Compressing residual geometry]({{ "/research/en/38/" | relative_url }})
+- [38-shape · The shape-budget branch]({{ "/research/en/38-shape/" | relative_url }})
+- [39 · Reconstructing the wrong reference]({{ "/research/en/39/" | relative_url }})
+- [39-b · From reconstruction to descent]({{ "/research/en/39-b/" | relative_url }})
+- [40 · Allocating update noise]({{ "/research/en/40/" | relative_url }})
+- [40-s · 40-S without signal gating]({{ "/research/en/40-s/" | relative_url }})
+- [41 · Ambiguity-aware residual allocation]({{ "/research/en/41/" | relative_url }})
+- [42 · Residual clocks and compute blocks]({{ "/research/en/42/" | relative_url }})
+- [43 · Compressed history and current scales]({{ "/research/en/43/" | relative_url }})
+- [44 · Predictable residual momentum]({{ "/research/en/44/" | relative_url }})
+- [45 · Residual denominators over longer budgets]({{ "/research/en/45/" | relative_url }})
+- [46 · Pair-clipped residual clocks]({{ "/research/en/46/" | relative_url }})
+- [46-legacy · Legacy 46a and 46b]({{ "/research/en/46-legacy/" | relative_url }})
+- [47 · Projection can remove useful directions]({{ "/research/en/47/" | relative_url }})
+- [48 · One momentum plus residual marginals]({{ "/research/en/48/" | relative_url }})
+- [49 · Larger steps did not fix the direction]({{ "/research/en/49/" | relative_url }})
+- [50 · An exact but inactive budget]({{ "/research/en/50/" | relative_url }})
+- [51 · Separating history and innovation]({{ "/research/en/51/" | relative_url }})
+- [51-fused · Fusing candidate 51]({{ "/research/en/51-fused/" | relative_url }})

@@ -1,0 +1,422 @@
+[
+  {
+    "id": "01",
+    "title_zh": "把 v2.1 写成可检验的理论",
+    "title_en": "Formalizing v2.1",
+    "scope": "algebra",
+    "archive_bytes": 10367
+  },
+  {
+    "id": "02",
+    "title_zh": "CrossAdamW 的条件快率",
+    "title_en": "A conditional rate for CrossAdamW",
+    "scope": "algebra",
+    "archive_bytes": 13826
+  },
+  {
+    "id": "03",
+    "title_zh": "让实验事实与理论各就各位",
+    "title_en": "Separating evidence from theory",
+    "scope": "algebra",
+    "archive_bytes": 9456
+  },
+  {
+    "id": "04",
+    "title_zh": "明确我们还不能宣称什么",
+    "title_en": "Defining the scope of the claims",
+    "scope": "algebra",
+    "archive_bytes": 9752
+  },
+  {
+    "id": "05",
+    "title_zh": "核验是研究记录，不是性能证明",
+    "title_en": "What verification can establish",
+    "scope": "algebra",
+    "archive_bytes": 8001
+  },
+  {
+    "id": "06",
+    "title_zh": "校准 v3：平滑尺度仍不够",
+    "title_en": "Calibrated v3",
+    "scope": "mechanism",
+    "archive_bytes": 21032
+  },
+  {
+    "id": "07",
+    "title_zh": "下降门控卡在可识别性",
+    "title_en": "Descent gating needs usable bounds",
+    "scope": "historical-core",
+    "archive_bytes": 6898
+  },
+  {
+    "id": "08",
+    "title_zh": "一个系数的前移梯度分支",
+    "title_en": "The predictive-shrink branch",
+    "scope": "mechanism",
+    "archive_bytes": 16481
+  },
+  {
+    "id": "09",
+    "title_zh": "多层缩减：先纠正变量变换",
+    "title_en": "Auditing multilevel shrinkage",
+    "scope": "algebra",
+    "archive_bytes": 19663
+  },
+  {
+    "id": "10",
+    "title_zh": "相容累计矩与完整位移噪声",
+    "title_en": "Coherent cumulative moments",
+    "scope": "algebra",
+    "archive_bytes": 21253
+  },
+  {
+    "id": "11",
+    "title_zh": "二次函数里的 1/T",
+    "title_en": "A 1/T rate in a quadratic model",
+    "scope": "algebra",
+    "archive_bytes": 8661
+  },
+  {
+    "id": "12",
+    "title_zh": "曲率—噪声杠杆的反例",
+    "title_en": "Auditing the curvature-noise lever",
+    "scope": "algebra",
+    "archive_bytes": 7614
+  },
+  {
+    "id": "13",
+    "title_zh": "只用已有状态补偿缩减",
+    "title_en": "Compensation from existing state",
+    "scope": "algebra",
+    "archive_bytes": 12017
+  },
+  {
+    "id": "14",
+    "title_zh": "AWA：简化公式，也暴露障碍",
+    "title_en": "AWA: simplification and obstacles",
+    "scope": "mechanism",
+    "archive_bytes": 16997
+  },
+  {
+    "id": "15",
+    "title_zh": "AWA 前移混合：原式先过合法性",
+    "title_en": "Making preview mixing well defined",
+    "scope": "algebra",
+    "archive_bytes": 13951
+  },
+  {
+    "id": "16",
+    "title_zh": "历史偏差抵消不等于无代价降噪",
+    "title_en": "Cancelling history bias",
+    "scope": "algebra",
+    "archive_bytes": 12074
+  },
+  {
+    "id": "17",
+    "title_zh": "漂移—噪声模型：预测能迁移吗",
+    "title_en": "Drift, noise and memory",
+    "scope": "historical-core",
+    "archive_bytes": 11697
+  },
+  {
+    "id": "18",
+    "title_zh": "记忆与移动速度的联合界",
+    "title_en": "Joint memory and movement",
+    "scope": "algebra",
+    "archive_bytes": 12619
+  },
+  {
+    "id": "19",
+    "title_zh": "有限步指数扫描的陷阱",
+    "title_en": "Finite-horizon exponent scans",
+    "scope": "historical-core",
+    "archive_bytes": 9148
+  },
+  {
+    "id": "20",
+    "title_zh": "从跟踪误差转向有效更新",
+    "title_en": "From tracking to effective updates",
+    "scope": "algebra",
+    "archive_bytes": 9257
+  },
+  {
+    "id": "21",
+    "title_zh": "局部可识别的联合选择",
+    "title_en": "Locally identifiable joint choices",
+    "scope": "algebra",
+    "archive_bytes": 9973
+  },
+  {
+    "id": "22",
+    "title_zh": "把移动与记忆放进同一势函数",
+    "title_en": "One potential for memory and movement",
+    "scope": "algebra",
+    "archive_bytes": 11035
+  },
+  {
+    "id": "23",
+    "title_zh": "不加梯度的对齐能量分析",
+    "title_en": "Alignment energy without extra gradients",
+    "scope": "algebra",
+    "archive_bytes": 11237
+  },
+  {
+    "id": "24",
+    "title_zh": "更紧的界覆盖了哪些状态",
+    "title_en": "When is the sharper bound useful",
+    "scope": "historical-core",
+    "archive_bytes": 15070
+  },
+  {
+    "id": "25",
+    "title_zh": "低成本偏差识别没有过门槛",
+    "title_en": "Bias identification missed the gate",
+    "scope": "historical-core",
+    "archive_bytes": 16527
+  },
+  {
+    "id": "26",
+    "title_zh": "不识别漂移也能闭合能量界",
+    "title_en": "Closing the energy bound",
+    "scope": "historical-core",
+    "archive_bytes": 13412
+  },
+  {
+    "id": "27",
+    "title_zh": "跟踪快了，优化可能停了",
+    "title_en": "Tracking is not optimization",
+    "scope": "new-audit",
+    "archive_bytes": 5746
+  },
+  {
+    "id": "28",
+    "title_zh": "运输修正与等价性审计",
+    "title_en": "Transport correction and equivalence",
+    "scope": "new-audit",
+    "archive_bytes": 5847
+  },
+  {
+    "id": "29",
+    "title_zh": "按实际移动分配逐坐标记忆",
+    "title_en": "Memory from actual movement",
+    "scope": "algebra",
+    "archive_bytes": 9986
+  },
+  {
+    "id": "30",
+    "title_zh": "算术—调和组合的起点",
+    "title_en": "Arithmetic-harmonic moments",
+    "scope": "algebra",
+    "archive_bytes": 11215
+  },
+  {
+    "id": "31",
+    "title_zh": "调和候选的条件收敛",
+    "title_en": "Convergence of the harmonic candidate",
+    "scope": "algebra",
+    "archive_bytes": 12389
+  },
+  {
+    "id": "32",
+    "title_zh": "原始加权和与调和分母",
+    "title_en": "Raw weighted sums",
+    "scope": "algebra",
+    "archive_bytes": 9762
+  },
+  {
+    "id": "33",
+    "title_zh": "少一次乘法，多一个失配项",
+    "title_en": "Ordinary harmonic averaging",
+    "scope": "algebra",
+    "archive_bytes": 10207
+  },
+  {
+    "id": "34",
+    "title_zh": "倒数残差与稳定 34",
+    "title_en": "Reciprocal residuals",
+    "scope": "algebra",
+    "archive_bytes": 11174
+  },
+  {
+    "id": "34-count",
+    "title_zh": "计数恢复：换一个有结构的问题",
+    "title_en": "Count-calibrated recovery",
+    "scope": "algebra",
+    "archive_bytes": 22553
+  },
+  {
+    "id": "34-task",
+    "title_zh": "稳定 34 的任务定位",
+    "title_en": "Task scope for stable 34",
+    "scope": "new-audit",
+    "archive_bytes": 7433
+  },
+  {
+    "id": "35",
+    "title_zh": "一阶 EMA、二阶长记忆",
+    "title_en": "Separating the two memories",
+    "scope": "gpu-smoke",
+    "archive_bytes": 9543
+  },
+  {
+    "id": "36",
+    "title_zh": "Flash：核快不等于训练快",
+    "title_en": "Flash evidence momentum",
+    "scope": "algebra",
+    "archive_bytes": 15926
+  },
+  {
+    "id": "37",
+    "title_zh": "让尺度刷新支付耗散代价",
+    "title_en": "Dissipation-paid scale refresh",
+    "scope": "algebra",
+    "archive_bytes": 11302
+  },
+  {
+    "id": "37-batch",
+    "title_zh": "Layer37-B：更快步数有梯度代价",
+    "title_en": "Layer37-B and gradient accounting",
+    "scope": "new-audit",
+    "archive_bytes": 8834
+  },
+  {
+    "id": "37-layer",
+    "title_zh": "Layer37：状态减半，信息也少了",
+    "title_en": "Layer37: the cost of compression",
+    "scope": "algebra",
+    "archive_bytes": 12908
+  },
+  {
+    "id": "38",
+    "title_zh": "保留信号，只压缩残差",
+    "title_en": "Compressing residual geometry",
+    "scope": "algebra",
+    "archive_bytes": 14152
+  },
+  {
+    "id": "38-shape",
+    "title_zh": "形状预算的平行分支",
+    "title_en": "The shape-budget branch",
+    "scope": "algebra",
+    "archive_bytes": 33362
+  },
+  {
+    "id": "39",
+    "title_zh": "重构得更准，参考方向却不够好",
+    "title_en": "Reconstructing the wrong reference",
+    "scope": "algebra",
+    "archive_bytes": 17103
+  },
+  {
+    "id": "39-b",
+    "title_zh": "把重构接回真实下降",
+    "title_en": "From reconstruction to descent",
+    "scope": "algebra",
+    "archive_bytes": 13409
+  },
+  {
+    "id": "40",
+    "title_zh": "从恢复分母转向分配噪声",
+    "title_en": "Allocating update noise",
+    "scope": "algebra",
+    "archive_bytes": 21674
+  },
+  {
+    "id": "40-s",
+    "title_zh": "40-S：删除信号门控",
+    "title_en": "40-S without signal gating",
+    "scope": "gpu-smoke",
+    "archive_bytes": 9264
+  },
+  {
+    "id": "41",
+    "title_zh": "残差含义不明时的保守分配",
+    "title_en": "Ambiguity-aware residual allocation",
+    "scope": "algebra",
+    "archive_bytes": 19897
+  },
+  {
+    "id": "42",
+    "title_zh": "残差时钟：把统计对齐计算块",
+    "title_en": "Residual clocks and compute blocks",
+    "scope": "algebra",
+    "archive_bytes": 16312
+  },
+  {
+    "id": "43",
+    "title_zh": "压缩历史仍没解决优化不足",
+    "title_en": "Compressed history and current scales",
+    "scope": "gpu-smoke",
+    "archive_bytes": 8527
+  },
+  {
+    "id": "44",
+    "title_zh": "先归一化再积累动量",
+    "title_en": "Predictable residual momentum",
+    "scope": "gpu-smoke",
+    "archive_bytes": 20418
+  },
+  {
+    "id": "45",
+    "title_zh": "残差分母：短期领先为何反转",
+    "title_en": "Residual denominators over longer budgets",
+    "scope": "gpu-smoke",
+    "archive_bytes": 20061
+  },
+  {
+    "id": "46",
+    "title_zh": "成对截断的残差时钟",
+    "title_en": "Pair-clipped residual clocks",
+    "scope": "gpu-smoke",
+    "archive_bytes": 5854
+  },
+  {
+    "id": "46-legacy",
+    "title_zh": "旧 46a/46b：先修公式再看结果",
+    "title_en": "Legacy 46a and 46b",
+    "scope": "gpu-smoke",
+    "archive_bytes": 12276
+  },
+  {
+    "id": "47",
+    "title_zh": "投影删掉噪声，也删掉方向",
+    "title_en": "Projection can remove useful directions",
+    "scope": "mechanism",
+    "archive_bytes": 13721
+  },
+  {
+    "id": "48",
+    "title_zh": "一份动量加行列残差",
+    "title_en": "One momentum plus residual marginals",
+    "scope": "mechanism",
+    "archive_bytes": 7891
+  },
+  {
+    "id": "49",
+    "title_zh": "放大步子未必改善方向",
+    "title_en": "Larger steps did not fix the direction",
+    "scope": "mechanism",
+    "archive_bytes": 6101
+  },
+  {
+    "id": "50",
+    "title_zh": "精确预算为什么没有实际作用",
+    "title_en": "An exact but inactive budget",
+    "scope": "mechanism",
+    "archive_bytes": 6145
+  },
+  {
+    "id": "51",
+    "title_zh": "历史与创新分开：进展与边界",
+    "title_en": "Separating history and innovation",
+    "scope": "mechanism",
+    "archive_bytes": 13032
+  },
+  {
+    "id": "51-fused",
+    "title_zh": "51 融合：质量结论之后再谈工程",
+    "title_en": "Fusing candidate 51",
+    "scope": "mechanism",
+    "archive_bytes": 21793
+  }
+]

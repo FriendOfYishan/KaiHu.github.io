@@ -1,0 +1,6 @@
+{
+  "status": "passed",
+  "risk_surrogate_checks": 20000,
+  "adaptive_state_checks": 10000,
+  "scope": "Surrogate dominance, coordinate-weight range, and same-weight moment invariant. No optimization-advantage claim."
+}

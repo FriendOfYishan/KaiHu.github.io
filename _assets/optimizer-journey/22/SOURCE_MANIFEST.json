@@ -1,0 +1,25 @@
+{
+  "entry": "22",
+  "reproduction_scope": "algebra",
+  "minimal_command": "python core.py",
+  "sources": [
+    {
+      "source": "CrossAdamW/theory/22_MEMORY_MOVEMENT_LYAPUNOV_ZH.md",
+      "source_sha256": "0eb42033adf7937a0ced3fdeba12e69100cd9a8b6fa4b0591ae92162efe2c45f",
+      "published": "theory.md",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "CrossAdamW/experiments/20261110_theory22/verify.py",
+      "source_sha256": "52513f6a71351b9852f9902b0f9c2f7dc581cc837fc49660258d552505d85237",
+      "published": "core.py",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "CrossAdamW/experiments/20261110_theory22/results.json",
+      "source_sha256": "8da6a3805e1a26b28b9e0a5c5624233f2b1f24809aca5d49520bbc63a2116cd9",
+      "published": "evidence/results.json",
+      "transformation": "byte-identical"
+    }
+  ]
+}

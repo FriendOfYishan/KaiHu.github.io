@@ -1,0 +1,50 @@
+{
+  "variance_identity_max_error": 3.1086244689504383e-15,
+  "normalized_moments_max_error": 3.774758283725532e-15,
+  "cumulative_covariance_max_error": 8.526512829121202e-14,
+  "descent_certificate_checks": 1000,
+  "weights": [
+    {
+      "p": 0.2,
+      "first_weight_pure": 8.706970206964073e-15,
+      "first_weight_normalized": 8.706970206964143e-16,
+      "first_weight_max": 1.0700117242084067e-16
+    },
+    {
+      "p": 0.3333333333333333,
+      "first_weight_pure": 2.547759511912591e-07,
+      "first_weight_normalized": 2.547760096109793e-08,
+      "first_weight_max": 1.1052924423726494e-09
+    },
+    {
+      "p": 0.4,
+      "first_weight_pure": 2.671512943753882e-05,
+      "first_weight_normalized": 2.6715771781309864e-06,
+      "first_weight_max": 5.807694151986423e-08
+    },
+    {
+      "p": 0.5,
+      "first_weight_pure": 0.002052685695269445,
+      "first_weight_normalized": 0.00020564848806568014,
+      "first_weight_max": 1.1268670698518198e-06
+    },
+    {
+      "p": 0.6,
+      "first_weight_pure": 0.024172829902091984,
+      "first_weight_normalized": 0.0024710418572559565,
+      "first_weight_max": 1.9054878048780505e-06
+    },
+    {
+      "p": 0.8,
+      "first_weight_pure": 0.231570200027944,
+      "first_weight_normalized": 0.02925392315593396,
+      "first_weight_max": 1.9054878048780505e-06
+    },
+    {
+      "p": 1.0,
+      "first_weight_pure": 0.5198542244905786,
+      "first_weight_normalized": 0.09769286718858032,
+      "first_weight_max": 1.9054878048780505e-06
+    }
+  ]
+}

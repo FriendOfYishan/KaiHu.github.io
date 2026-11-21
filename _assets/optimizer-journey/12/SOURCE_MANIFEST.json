@@ -1,0 +1,25 @@
+{
+  "entry": "12",
+  "reproduction_scope": "algebra",
+  "minimal_command": "python core.py",
+  "sources": [
+    {
+      "source": "CrossAdamW/theory/12_CURVATURE_NOISE_LEVER_AUDIT_ZH.md",
+      "source_sha256": "be7843848f44d937c58a811f42024bc8728c2b6ffdc1cdaad862fa4392173e75",
+      "published": "theory.md",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "CrossAdamW/experiments/20261109_lever_audit/verify.py",
+      "source_sha256": "075e160c3362877df1af4a37b52bfc24d40b747eb94dfcedcd417309ec6699a6",
+      "published": "core.py",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "CrossAdamW/experiments/20261109_lever_audit/results.json",
+      "source_sha256": "8e5ca1ef5ba8529cb22689b3a77847182e06e216899815d05cd41ada288dd228",
+      "published": "evidence/results.json",
+      "transformation": "byte-identical"
+    }
+  ]
+}

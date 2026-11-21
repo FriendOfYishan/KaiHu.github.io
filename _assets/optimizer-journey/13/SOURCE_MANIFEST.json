@@ -1,0 +1,31 @@
+{
+  "entry": "13",
+  "reproduction_scope": "algebra",
+  "minimal_command": "python core.py",
+  "sources": [
+    {
+      "source": "CrossAdamW/theory/13_STATE_ONLY_NOISE_LEVER_ZH.md",
+      "source_sha256": "a6a237c97039ca0ef76c006b8912cfddc79660a49810bd49b083bd53a37bba00",
+      "published": "theory.md",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "CrossAdamW/experiments/20261109_state_lever/README_ZH.md",
+      "source_sha256": "964832e3e7d0f09e1130ed87b3091f7af14629d570e0dfe84e946f7f1c10960e",
+      "published": "report.md",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "CrossAdamW/experiments/20261109_state_lever/verify.py",
+      "source_sha256": "b2b37ad0e11193be7f352be1dfcd9a7a8d86647387827dea3bb892073ba51fea",
+      "published": "core.py",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "CrossAdamW/experiments/20261109_state_lever/verification.json",
+      "source_sha256": "9d00558c8eaadca40283fa183b5b83ab0ca650af8f7bf0755927fbb84ca758de",
+      "published": "evidence/verification.json",
+      "transformation": "byte-identical"
+    }
+  ]
+}

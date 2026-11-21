@@ -1,0 +1,62 @@
+{
+  "scope": "Mathematical identities and synthetic mechanisms only; no new neural-network/GPU runs.",
+  "tilde_identity": true,
+  "cumulative_counterexample": [
+    {
+      "g": 1.0,
+      "v": 0.05,
+      "tilde_v": 0.55,
+      "claimed": 0.1
+    },
+    {
+      "g": 2.0,
+      "v": 0.295,
+      "tilde_v": 1.795,
+      "claimed": 0.9500000000000001
+    },
+    {
+      "g": 3.0,
+      "v": 0.9155,
+      "tilde_v": 3.4154999999999998,
+      "claimed": 2.6950000000000003
+    }
+  ],
+  "shifted_v_negative_counterexample": -0.405,
+  "coherent_moment_identity": true,
+  "lagged_square_filter": {
+    "beta": [
+      0.9,
+      0.999
+    ],
+    "lambda_": 0.5,
+    "exact_variance_ratio": [
+      0.95,
+      0.9995
+    ],
+    "simulated_variance_ratio": [
+      0.9501790527889928,
+      0.9994576166768816
+    ],
+    "chains": 12000,
+    "steps": 3000,
+    "note": "iid centered scalar inputs isolate the linear filter, not a changing neural-network gradient"
+  },
+  "geometric_candidate": {
+    "split_normalization_max_error": 6.661338147750939e-16,
+    "x_recurrence_max_error": 2.220446049250313e-16,
+    "neutral_adam_max_error": 8.881784197001252e-16,
+    "cycle_arithmetic_gain": 1.2656250000000002,
+    "cycle_geometric_gain": 0.81,
+    "telescope": true,
+    "amplitude_bound_max_ratio": 0.9999999885467196,
+    "sufficient_gain": 0.9839386025361841,
+    "frozen_denominator_equals_ordinary_momentum": true
+  },
+  "claims_not_established": [
+    "global novelty",
+    "faster convergence",
+    "smaller stationary parameter variance",
+    "lower wall-clock cost",
+    "ICML acceptance"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "entry": "19",
+  "reproduction_scope": "historical-core",
+  "minimal_command": "python reproduce.py",
+  "sources": [
+    {
+      "source": "CrossAdamW/theory/19_FINITE_HORIZON_TRACKING_SCAN_ZH.md",
+      "source_sha256": "09ba908d24cf9e4c23ba2ae0f9958721fb1bd9e893cb927b1531844f9db282d5",
+      "published": "theory.md",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "CrossAdamW/experiments/20261110_tracking/CONCLUSION_ZH.md",
+      "source_sha256": "961a231033406981adf6a951a98284b7d253ae1102fa36e8aa08fc2a544e5ac2",
+      "published": "report.md",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "CrossAdamW/experiments/20261110_tracking/run.py",
+      "source_sha256": "fc71fba83e9aad9727a68c17d9198bb16f8a056ab164212eaa0f9e31b01ca8fa",
+      "published": "core.py",
+      "transformation": "byte-identical"
+    },
+    {
+      "source": "CrossAdamW/experiments/20261110_tracking/verification.json",
+      "source_sha256": "2592b216ba7cf6956f10bab15ac9cbc403cd17d98f916f3df2a3ce9b53ea70d8",
+      "published": "evidence/verification.json",
+      "transformation": "byte-identical"
+    }
+  ]
+}
